@@ -3,6 +3,7 @@ import Breadcrumb from '../components/Breadcrumb';
 import FooterOne from '../components/FooterOne';
 import NavBar from '../components/NavbarTwo';
 import TeamDetailsGroup from '../components/TeamDetailsGroup';
+import FooterFour from '../components/FooterFour';
 
 const TeamDetails = () => {
   return (
@@ -17,7 +18,7 @@ const TeamDetails = () => {
       <TeamDetailsGroup />
 
       {/* Footer One */}
-      <FooterOne />
+      <FooterFour/>
     </>
   );
 };

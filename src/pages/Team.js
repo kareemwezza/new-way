@@ -3,6 +3,7 @@ import Breadcrumb from '../components/Breadcrumb';
 import FooterOne from '../components/FooterOne';
 import NavBar from '../components/NavbarTwo';
 import TeamAreaGroup from '../components/TeamAreaGroup';
+import FooterFour from '../components/FooterFour';
 
 const Team = () => {
   return (
@@ -17,7 +18,7 @@ const Team = () => {
       <TeamAreaGroup />
 
       {/* Footer One */}
-      <FooterOne />
+      <FooterFour/>
     </>
   );
 };
