@@ -16,8 +16,7 @@ const ServiceAreaGroup = () => {
           throw new Error(`Error: ${response.statusText}`);
         }
         const result = await response.json();
-        console.log(result)
-        setServices(result);
+        setServices(result.data);
       } catch (err) {
         // setError(err.message);
       } finally {
@@ -45,17 +44,17 @@ const ServiceAreaGroup = () => {
             </h2>
           </div>
           <div className="row">
-            {serviceList.map((data, index) => (
+            {services.map((data, index) => (
               <div className="col-lg-4 col-md-6" key={index}>
                 <div className="single-service-inner text-center">
                   <div className="thumb">
-                    <img src={data.img} alt="img"/>
+                    <img src={serviceList[index].img} alt="img"/>
                   </div>
                   <div className="details">
                     <h5>
                       <Link to="/service-details">{data.title}</Link>
                     </h5>
-                    <p>{data.des}</p>
+                    {/*<p>{data.content}</p>*/}
                     <Link className="btn btn-border-base" to="/service-details">
                       Touch More <FaPlus/>
                     </Link>

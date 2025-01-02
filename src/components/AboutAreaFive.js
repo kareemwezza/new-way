@@ -7,9 +7,9 @@ const AboutAreaFive = () => {
   return (
     <>
       {/* =============== About Area Five End ===============*/}
-      <div className="about-area pd-top-120 pd-bottom-120">
+      <div className="about-area pd-top-120">
         <div className="container">
-          <div className="row">
+          <div className="row pd-bottom-60">
             <div
               className="col-lg-6 mb-4 mb-lg-0"
               data-aos="fade-right"
