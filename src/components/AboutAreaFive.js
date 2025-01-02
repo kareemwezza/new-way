@@ -1,6 +1,7 @@
 import React from 'react';
 import {FaArrowRight, FaCheckCircle} from 'react-icons/fa';
 import {Link} from 'react-router-dom';
+import Marquee from 'react-fast-marquee';
 
 const AboutAreaFive = () => {
   return (
@@ -80,6 +81,30 @@ const AboutAreaFive = () => {
                   Discover More <FaArrowRight/>
                 </Link>
               </div>
+            </div>
+          </div>
+          <div className='bg-base client-border-radius p-xl-5 p-3 mt-5'>
+            <div className='client-slider'>
+              <Marquee gradient={false}>
+                <div className='thumb'>
+                  <img src='assets/img/client/1.svg' alt='img'/>
+                </div>
+                <div className='thumb'>
+                  <img src='assets/img/client/2.svg' alt='img'/>
+                </div>
+                <div className='thumb'>
+                  <img src='assets/img/client/3.svg' alt='img'/>
+                </div>
+                <div className='thumb'>
+                  <img src='assets/img/client/4.svg' alt='img'/>
+                </div>
+                <div className='thumb'>
+                  <img src='assets/img/client/5.svg' alt='img'/>
+                </div>
+                <div className='thumb'>
+                  <img src='assets/img/client/6.svg' alt='img'/>
+                </div>
+              </Marquee>
             </div>
           </div>
         </div>

@@ -5,33 +5,33 @@ import serviceList from '../scripts/serviceList';
 import config from '../config';
 
 const ServiceAreaGroup = () => {
-  // const [services, setServices] = useState([]);
-  // useEffect(() => {
-  //   const apiUrl = `${config.API_URL}/services`;
-  //
-  //   const fetchData = async () => {
-  //     try {
-  //       const response = await fetch(apiUrl);
-  //       if (!response.ok) {
-  //         throw new Error(`Error: ${response.statusText}`);
-  //       }
-  //       const result = await response.json();
-  //       console.log(result)
-  //       setServices(result);
-  //     } catch (err) {
-  //       // setError(err.message);
-  //     } finally {
-  //       // setLoading(false);
-  //     }
-  //   };
-  //
-  //   fetchData();
-  // }, []);
+  const [services, setServices] = useState([]);
+  useEffect(() => {
+    const apiUrl = `${config.API_URL}/services`;
+
+    const fetchData = async () => {
+      try {
+        const response = await fetch(apiUrl);
+        if (!response.ok) {
+          throw new Error(`Error: ${response.statusText}`);
+        }
+        const result = await response.json();
+        console.log(result)
+        setServices(result);
+      } catch (err) {
+        // setError(err.message);
+      } finally {
+        // setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
 
   return (
     <>
       {/*=================== service area start ===================*/}
-      <div className="service-area bg-relative pd-top-100">
+      <div className="service-area bg-relative mb-5 pd-top-100">
         <img
           className="position-bottom-left top_image_bounce"
           src="assets/img/icon/4.png"

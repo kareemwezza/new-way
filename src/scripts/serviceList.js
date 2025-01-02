@@ -31,12 +31,12 @@ let serviceList = [
   },
   {
     title: 'Mobile Device Management',
-    des: 'Secure and manage mobile devices within your organization. Our MDM solutions help you control and protect data on various mobile devices',
+    des: 'Secure and manage mobile devices within your organization.',
     img: 'assets/img/service-icon/3.png',
   },
   {
     title: 'Microsoft Migration',
-    des: 'Smoothly transition to Microsoft environments with our migration services. We ensure a seamless and efficient migration process with minimal disruption',
+    des: 'Smoothly transition to Microsoft environments with our migration services. We ensure a seamless and efficient migration process',
     img: 'assets/img/service-icon/3.png',
   },
   {
