@@ -20,12 +20,12 @@ const AboutAreaSix = () => {
                   <img
                     width={'334px'}
                     className="animate-img-4 top_image_bounce z-index-2"
-                    src="assets/img/about/D8.png"
+                    src="assets/img/about/24.png"
                     alt="img"
                   />
                   <img
                     className="main-img"
-                    src="assets/img/about/D7.png"
+                    src="assets/img/about/about_2.webp"
                     alt="img"
                   />
                   <a

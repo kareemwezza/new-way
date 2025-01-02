@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { FaPlus } from 'react-icons/fa';
 import ModalVideo from 'react-modal-video';
 import { Link } from 'react-router-dom';
 
@@ -48,7 +47,7 @@ const BannerFive = () => {
                   data-aos-duration="1500"
                   to="/about"
                 >
-                  Discover More <FaPlus />
+                  Discover More
                 </Link>
                 <div
                   className="d-inline-block align-self-center "
@@ -86,13 +85,14 @@ const BannerFive = () => {
                   />
                   <img
                     className="banner-animate-img banner-animate-img-3 top_image_bounce"
+                    className="banner-animate-img banner-animate-img-3 top_image_bounce"
                     src="assets/img/banner-5/3.png"
                     alt="img"
                   />
                   <div>
                     <img
                       className="main-img"
-                      src="assets/img/banner-5/D1.png"
+                      src="assets/img/banner-5/newway_banner.png"
                       alt="img"
                     />
                   </div>

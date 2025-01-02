@@ -6,7 +6,7 @@ const WorkProcessFour = () => {
       {/*==================== Work Process Three start ====================*/}
       <div
         className='work-process-area bg-position-right pd-top-120 pd-bottom-90'
-        style={{ backgroundImage: 'url("./assets/img/bg/16.png")' }}
+        style={{backgroundImage: 'url("./assets/img/bg/16.png")'}}
       >
         <div className='container'>
           <div className='row justify-content-center'>
@@ -29,13 +29,12 @@ const WorkProcessFour = () => {
                     alt='img'
                   />
                   <div className='thumb mb-3'>
-                    <img src='assets/img/icon/36.svg' alt='img' />
+                    <img src='assets/img/icon/36.svg' alt='img'/>
                   </div>
                   <div className='details'>
                     <h5 className='mb-3'>Assessment</h5>
                     <p className='content'>
-                      Research ipsum dolor sit consec tetur sed diam in the
-                      aliquam tempor
+                      Analyze client needs and IT infrastructure to design tailored cybersecurity and IT solutions
                     </p>
                   </div>
                 </div>
@@ -48,13 +47,12 @@ const WorkProcessFour = () => {
                     alt='img'
                   />
                   <div className='thumb mb-3'>
-                    <img src='assets/img/icon/37.svg' alt='img' />
+                    <img src='assets/img/icon/37.svg' alt='img'/>
                   </div>
                   <div className='details'>
-                    <h5 className='mb-3'>Implementationplanning</h5>
+                    <h5 className='mb-3'>Implementation</h5>
                     <p className='content'>
-                      Create ipsum dolor sit consec tetur sed diam in the
-                      aliquam tempor
+                      Deploy identity management, multi-factor authentication, and security measures into the system
                     </p>
                   </div>
                 </div>
@@ -67,27 +65,30 @@ const WorkProcessFour = () => {
                     alt='img'
                   />
                   <div className='thumb mb-3'>
-                    <img src='assets/img/icon/38.svg' alt='img' />
+                    <img src='assets/img/icon/38.svg' alt='img'/>
                   </div>
                   <div className='details'>
-                    <h5 className='mb-3'>Capabilities</h5>
+                    <h5 className='mb-3'>Monitoring & Support</h5>
                     <p className='content'>
-                      Develope ipsum dolor sit consec tetur sed diam in the
-                      aliquam tempor
+                      Provide continuous system monitoring, log management, and 24/7 support to ensure security.
                     </p>
                   </div>
                 </div>
               </div>
               <div className='col-lg-3 col-md-6'>
                 <div className='single-work-process-inner style-2 text-center'>
+                  <img
+                    className='line-img'
+                    src='assets/img/about/29.png'
+                    alt='img'
+                  />
                   <div className='thumb mb-3'>
-                    <img src='assets/img/icon/39.svg' alt='img' />
+                    <img src='assets/img/icon/39.svg' alt='img'/>
                   </div>
                   <div className='details'>
-                    <h5 className='mb-3'>Innovation</h5>
+                    <h5 className='mb-3'>Optimization</h5>
                     <p className='content'>
-                      Shop ipsum dolor sit consec tetur Malesuada sed diam in
-                      the
+                      Regularly evaluate and optimize IT services to adapt to evolving technologies and business goals.
                     </p>
                   </div>
                 </div>

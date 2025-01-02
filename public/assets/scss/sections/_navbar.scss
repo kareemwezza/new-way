@@ -89,7 +89,7 @@
         color: #fff;
         img {
           height: auto;
-          max-width: 150px;
+          max-width: 200px;
         }
       }
     }
@@ -205,9 +205,9 @@
                   position: relative;
                 }
                 &:hover {
-                  background: #061539;
+                  background: var(--main-color);
                   a {
-                    color: #fff;
+                    color: #FFFFFF !important;;
                     padding: 10px 20px 10px 30px;
                     &:before {
                       visibility: visible;
@@ -1001,6 +1001,9 @@
     .sub-menu
     li:hover {
     background: none;
+    > a {
+      color: var(--main-color) !important;
+    }
   }
   .navbar-area .nav-container .navbar-collapse .navbar-nav li a {
     color: #333333;

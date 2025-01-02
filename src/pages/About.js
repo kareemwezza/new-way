@@ -4,40 +4,40 @@ import Breadcrumb from '../components/Breadcrumb';
 import ContactAreaOne from '../components/ContactAreaOne';
 import CounterAreaOne from '../components/CounterAreaOne';
 import FaqAreaOne from '../components/FaqAreaOne';
-import FooterOne from '../components/FooterOne';
 import NavBar from '../components/NavbarTwo';
 import TeamAreaOne from '../components/TeamAreaOne';
 import WorkProcessOne from '../components/WorkProcessOne';
+import FooterFour from '../components/FooterFour';
 
 const About = () => {
   return (
     <>
       {/* Navigation Bar */}
-      <NavBar />
+      <NavBar/>
 
       {/* Navigation Bar */}
-      <Breadcrumb title={'About Us'} />
+      <Breadcrumb title={'About Us'}/>
 
       {/* About Area One */}
-      <AboutAreaOne />
+      <AboutAreaOne/>
 
       {/* FAQ Area One */}
-      <FaqAreaOne />
+      <FaqAreaOne/>
 
       {/* Team Area One */}
-      <TeamAreaOne />
+      <TeamAreaOne/>
 
       {/* Counter Area One */}
-      <CounterAreaOne />
+      <CounterAreaOne/>
 
       {/* Contact Area One */}
-      <ContactAreaOne />
+      <ContactAreaOne/>
 
       {/* Work Process One */}
-      <WorkProcessOne />
+      <WorkProcessOne/>
 
       {/* Footer One */}
-      <FooterOne />
+      <FooterFour/>
     </>
   );
 };

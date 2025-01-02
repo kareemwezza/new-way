@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaArrowRight, FaCheckCircle } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
+import {FaArrowRight, FaCheckCircle} from 'react-icons/fa';
+import {Link} from 'react-router-dom';
 
 const AboutAreaFive = () => {
   return (
@@ -20,12 +20,13 @@ const AboutAreaFive = () => {
                   width="283px"
                   height="230px"
                   className="animate-img-3 z-index-2 top_image_bounce"
-                  src="assets/img/about/D2.png"
+                  src="assets/img/about/about-thumb.png"
                   alt="img"
                 />
                 <img
                   className="main-img"
-                  src="assets/img/about/D3.png"
+                  style={{maxHeight: '450px', width: '100%', objectFit: 'cover'}}
+                  src="assets/img/about/about-newway.webp"
                   alt="img"
                 />
               </div>
@@ -50,11 +51,11 @@ const AboutAreaFive = () => {
                   <div className="col-md-6">
                     <ul className="single-list-inner style-check style-heading style-check mb-3">
                       <li>
-                        <FaCheckCircle className="sky" /> Mistakes To Avoid to
+                        <FaCheckCircle className="sky"/> Mistakes To Avoid to
                         the
                       </li>
                       <li>
-                        <FaCheckCircle className="sky" /> Your Startup industry
+                        <FaCheckCircle className="sky"/> Your Startup industry
                         stan
                       </li>
                     </ul>
@@ -62,11 +63,11 @@ const AboutAreaFive = () => {
                   <div className="col-md-6">
                     <ul className="single-list-inner style-check style-heading style-check mb-3">
                       <li>
-                        <FaCheckCircle className="sky" /> Mistakes To Avoid to
+                        <FaCheckCircle className="sky"/> Mistakes To Avoid to
                         the
                       </li>
                       <li>
-                        <FaCheckCircle className="sky" /> Your Startup industry
+                        <FaCheckCircle className="sky"/> Your Startup industry
                         stan
                       </li>
                     </ul>
@@ -76,7 +77,7 @@ const AboutAreaFive = () => {
                   className="btn btn-base-color border-radius-5"
                   to="/about"
                 >
-                  Discover More <FaArrowRight />
+                  Discover More <FaArrowRight/>
                 </Link>
               </div>
             </div>

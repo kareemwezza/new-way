@@ -72,7 +72,7 @@ const NavbarTwo = () => {
           </div>
           <div className="logo">
             <Link to="/">
-              <img src="assets/img/logo.png" alt="img" />
+              <img src="assets/img/NWS-logo.png" alt="img" />
             </Link>
           </div>
           <div className="nav-right-part nav-right-part-mobile">
@@ -92,16 +92,8 @@ const NavbarTwo = () => {
               <li>
                 <Link to="/">Home</Link>
               </li>
-              <li className="menu-item-has-children">
-                <a href="#">Service</a>
-                <ul className="sub-menu">
-                  <li>
-                    <Link to="/service">Service</Link>
-                  </li>
-                  <li>
-                    <Link to="/service-details">Service Single</Link>
-                  </li>
-                </ul>
+              <li>
+                <Link to="/services">Services</Link>
               </li>
               <li className="menu-item-has-children">
                 <a href="#">Pages</a>
@@ -120,16 +112,8 @@ const NavbarTwo = () => {
                   </li>
                 </ul>
               </li>
-              <li className="menu-item-has-children">
-                <a href="#">Blog</a>
-                <ul className="sub-menu">
-                  <li>
-                    <Link to="/blog">Blog</Link>
-                  </li>
-                  <li>
-                    <Link to="/blog-details">Blog Details</Link>
-                  </li>
-                </ul>
+              <li>
+                <Link to="/blog">Blog</Link>
               </li>
               <li>
                 <Link to="/contact">Contact Us</Link>

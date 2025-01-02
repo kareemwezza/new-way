@@ -10,7 +10,7 @@ import {
   FaTwitter,
   FaYoutube,
 } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom";
 
 const FooterFour = () => {
   return (
@@ -18,29 +18,29 @@ const FooterFour = () => {
       {/* ================== Footer Four Start ==================*/}
       <footer
         className='footer-area bg-cover mt-0 pd-top-120'
-        style={{ backgroundImage: 'url("assets/img/bg/14.png")' }}
+        style={{backgroundImage: 'url("assets/img/bg/14.png")'}}
       >
         <div className='footer-subscribe'>
           <div className='container'>
             <div className='footer-subscribe-inner box-shadow style-2 bg-white p-0 bg-cover'>
               <div className='media bg-base-2'>
                 <div className='media-left me-3 align-self-xl-center'>
-                  <img src='assets/img/icon/40.svg' alt='img' />
+                  <img src='assets/img/icon/40.svg' alt='img'/>
                 </div>
                 <div className='media-body'>
-                  <h6 className='text-white'>+(08)-387-214-032</h6>
+                  <h6 className='text-white'>+(970)-569-033-399</h6>
                   <p className='mb-0 text-white'>Call 24HR / 7Days</p>
                 </div>
               </div>
               <div className='row align-self-center'>
                 <div className='col-lg-4'>
                   <div className='border-1'>
-                    <input type='text' placeholder='Your Name' />
+                    <input type='text' placeholder='Your Name'/>
                   </div>
                 </div>
                 <div className='col-lg-4'>
                   <div className='border-1'>
-                    <input type='text' placeholder='Your Email' />
+                    <input type='text' placeholder='Your Email'/>
                   </div>
                 </div>
                 <div className='col-lg-4'>
@@ -63,35 +63,36 @@ const FooterFour = () => {
                 <div className='widget widget_contact'>
                   <ul className='details text-white'>
                     <li>
-                      <FaMapMarkerAlt className='sky' />
-                      4517 Washington Ave. Manchester, Kentucky 39495
+                      <FaMapMarkerAlt className='sky'/>
+                      Al Sulaimaniyah,
+                      Riyadh 12242 - Saudi Arabia
                     </li>
                     <li className='mt-3'>
-                      <FaPhoneAlt className='sky' /> (+888) 123 456 765
+                      <FaPhoneAlt className='sky'/> (+970) 569 033 399
                     </li>
                     <li className='mt-2'>
-                      <FaEnvelope className='sky' /> infoname@mail.com
+                      <FaEnvelope className='sky'/> info@newway.com
                     </li>
                   </ul>
                   <ul className='social-media mt-4'>
                     <li>
                       <a href='#' className='sky'>
-                        <FaFacebookF />
+                        <FaFacebookF/>
                       </a>
                     </li>
                     <li>
                       <a href='#' className='sky'>
-                        <FaTwitter />
+                        <FaTwitter/>
                       </a>
                     </li>
                     <li>
                       <a href='#' className='sky'>
-                        <FaInstagram />
+                        <FaInstagram/>
                       </a>
                     </li>
                     <li>
                       <a href='#' className='sky'>
-                        <FaYoutube />
+                        <FaYoutube/>
                       </a>
                     </li>
                   </ul>
@@ -104,32 +105,32 @@ const FooterFour = () => {
                 <ul>
                   <li className='sky'>
                     <Link to='/service'>
-                      <FaChevronRight /> Ui Design
+                      <FaChevronRight/> Ui Design
                     </Link>
                   </li>
                   <li className='sky'>
                     <Link to='/service'>
-                      <FaChevronRight /> Web design
+                      <FaChevronRight/> Web design
                     </Link>
                   </li>
                   <li className='sky'>
                     <Link to='/service'>
-                      <FaChevronRight /> Digital marketing{" "}
+                      <FaChevronRight/> Digital marketing{" "}
                     </Link>
                   </li>
                   <li className='sky'>
                     <Link to='/service'>
-                      <FaChevronRight /> Video Editing
+                      <FaChevronRight/> Video Editing
                     </Link>
                   </li>
                   <li className='sky'>
                     <Link to='/service'>
-                      <FaChevronRight /> Pc Repairs
+                      <FaChevronRight/> Pc Repairs
                     </Link>
                   </li>
                   <li className='sky'>
                     <Link to='/service'>
-                      <FaChevronRight /> Web Development
+                      <FaChevronRight/> Web Development
                     </Link>
                   </li>
                 </ul>
@@ -141,32 +142,32 @@ const FooterFour = () => {
                 <ul>
                   <li className='sky'>
                     <Link to='/service'>
-                      <FaChevronRight /> Credit industrys
+                      <FaChevronRight/> Credit industrys
                     </Link>
                   </li>
                   <li className='sky'>
                     <Link to='/service'>
-                      <FaChevronRight /> Reasearch sector
+                      <FaChevronRight/> Reasearch sector
                     </Link>
                   </li>
                   <li className='sky'>
                     <Link to='/service'>
-                      <FaChevronRight /> Finance Sector{" "}
+                      <FaChevronRight/> Finance Sector{" "}
                     </Link>
                   </li>
                   <li className='sky'>
                     <Link to='/service'>
-                      <FaChevronRight /> Credit industrys
+                      <FaChevronRight/> Credit industrys
                     </Link>
                   </li>
                   <li className='sky'>
                     <Link to='/service'>
-                      <FaChevronRight /> Reasearch sector
+                      <FaChevronRight/> Reasearch sector
                     </Link>
                   </li>
                   <li className='sky'>
                     <Link to='/service'>
-                      <FaChevronRight /> Finance Sector
+                      <FaChevronRight/> Finance Sector
                     </Link>
                   </li>
                 </ul>
@@ -180,7 +181,7 @@ const FooterFour = () => {
                     <div className='media'>
                       <div className='media-body align-self-center'>
                         <div className='post-info  mb-2'>
-                          <FaRegCalendarAlt className='sky' />
+                          <FaRegCalendarAlt className='sky'/>
                           <span>january 11, 2023</span>
                         </div>
                         <h6 className='title sky mb-0'>
@@ -195,7 +196,7 @@ const FooterFour = () => {
                     <div className='media'>
                       <div className='media-body align-self-center'>
                         <div className='post-info mb-2'>
-                          <FaRegCalendarAlt className='sky' />
+                          <FaRegCalendarAlt className='sky'/>
                           <span>january 11, 2023</span>
                         </div>
                         <h6 className='title sky mb-0'>
@@ -215,7 +216,7 @@ const FooterFour = () => {
           <div className='container'>
             <div className='row'>
               <div className='col-md-6 align-self-center'>
-                <p>© Yoursitename 2023 | All Rights Reserved</p>
+                <p>© New way 2024 | All Rights Reserved</p>
               </div>
               <div className='col-md-6 text-lg-end'>
                 <a href='#'>Trams &amp; Condition</a>
