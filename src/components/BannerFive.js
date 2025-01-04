@@ -49,30 +49,6 @@ const BannerFive = () => {
                 >
                   Discover More
                 </Link>
-                <div
-                  className="d-inline-block align-self-center "
-                  data-aos="fade-right"
-                  data-aos-delay="350"
-                  data-aos-duration="1500"
-                >
-                  <a
-                    href="javascript:void(0)"
-                    onClick={() => setOpen(true)}
-                    className="video-play-btn-hover"
-                  >
-                    <img src="/assets/img/video.svg" alt="img" />{' '}
-                    <h6 className="d-inline-block text-white">how we work</h6>
-                  </a>
-
-                  <div></div>
-                </div>
-                <ModalVideo
-                  channel="youtube"
-                  autoplay
-                  isOpen={isOpen}
-                  videoId="XM6kTQPzzpQ"
-                  onClose={() => setOpen(false)}
-                />
               </div>
             </div>
             <div className="col-lg-6 col-md-9 align-self-end">

@@ -51,65 +51,11 @@ const AboutAreaSix = () => {
                 data-aos-duration="1500"
               >
                 <div className="section-title mt-5 mt-lg-0 mb-0">
-                  <h6 className="sub-title-sky-blue">ABOUT COMPANY</h6>
+                  <h6 className="sub-title-sky-blue">Vision</h6>
                   <h2 className="title">Innovation Through Is Intelligence</h2>
                   <p className="content">
-                    At New Way Solution, we are committed to providing top-notch
-                    IT solutions that empower businesses to thrive in a digital
-                    world. Our team of experts leverages cutting-edge technology
-                    to deliver innovative and secure IT services tailored to
-                    meet your unique needs.
+                    At New Way, we envision a future where businesses can operate with confidence, knowing their digital environments are secure, efficient, and compliant. Our goal is to help organizations seamlessly manage their IT infrastructure, safeguard sensitive data, and navigate the evolving landscape of cybersecurity, identity management, and cloud technologies.
                   </p>
-                  <p className="content">
-                    With a focus on excellence and customer satisfaction, we
-                    strive to build long-lasting relationships with our clients,
-                    ensuring their success and security in every step of their
-                    digital journey.
-                  </p>
-                  <div className="row mt-4">
-                    <div className="col-md-4">
-                      <div className="image-hover-rotate border-1 p-4 border-radius-5 text-center">
-                        <div className="thumb mb-3">
-                          <img
-                            className="rotate-img"
-                            src="/assets/img/about/25.png"
-                            alt="img"
-                          />
-                        </div>
-                        <div className="details">
-                          <h6 className="mb-0">Cyber synapse</h6>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-md-4">
-                      <div className="image-hover-rotate border-1 p-4 border-radius-5 text-center">
-                        <div className="thumb mb-3">
-                          <img
-                            className="rotate-img"
-                            src="/assets/img/about/26.png"
-                            alt="img"
-                          />
-                        </div>
-                        <div className="details">
-                          <h6 className="mb-0">Cyber synapse</h6>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-md-4">
-                      <div className="image-hover-rotate border-1 p-4 border-radius-5 text-center">
-                        <div className="thumb mb-3">
-                          <img
-                            className="rotate-img"
-                            src="/assets/img/about/27.png"
-                            alt="img"
-                          />
-                        </div>
-                        <div className="details">
-                          <h6 className="mb-0">Cyber synapse</h6>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>

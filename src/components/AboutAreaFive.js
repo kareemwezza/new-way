@@ -41,39 +41,11 @@ const AboutAreaFive = () => {
               <div className="section-title mb-0 ps-xl-5">
                 <h6 className="sub-title-sky-blue">ABOUT COMPANY</h6>
                 <h2 className="title">
-                  Innovative IT Solutions for Modern Businesses
+                  Providing top-notch IT solutions empowering businesses
                 </h2>
                 <p className="content mb-4">
-                  Our team of experts leverages cutting-edge technology to
-                  deliver innovative and secure IT services tailored to meet
-                  your unique needs.
+                  Our team of experts leverages cutting-edge technology to deliver innovative and secure IT services tailored to meet your unique needs
                 </p>
-                <div className="row">
-                  <div className="col-md-6">
-                    <ul className="single-list-inner style-check style-heading style-check mb-3">
-                      <li>
-                        <FaCheckCircle className="sky"/> Mistakes To Avoid to
-                        the
-                      </li>
-                      <li>
-                        <FaCheckCircle className="sky"/> Your Startup industry
-                        stan
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="col-md-6">
-                    <ul className="single-list-inner style-check style-heading style-check mb-3">
-                      <li>
-                        <FaCheckCircle className="sky"/> Mistakes To Avoid to
-                        the
-                      </li>
-                      <li>
-                        <FaCheckCircle className="sky"/> Your Startup industry
-                        stan
-                      </li>
-                    </ul>
-                  </div>
-                </div>
                 <Link
                   className="btn btn-base-color border-radius-5"
                   to="/about"

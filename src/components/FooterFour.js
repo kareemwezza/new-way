@@ -9,6 +9,7 @@ import {
   FaRegCalendarAlt,
   FaTwitter,
   FaYoutube,
+  FaLinkedin
 } from "react-icons/fa";
 import {Link} from "react-router-dom";
 
@@ -28,7 +29,7 @@ const FooterFour = () => {
                   <img src='/assets/img/icon/40.svg' alt='img'/>
                 </div>
                 <div className='media-body'>
-                  <h6 className='text-white'>+(970)-569-033-399</h6>
+                  <h6 className='text-white'>+(966)-54-044-8767</h6>
                   <p className='mb-0 text-white'>Call 24HR / 7Days</p>
                 </div>
               </div>
@@ -62,39 +63,44 @@ const FooterFour = () => {
                 <h4 className='widget-title'>Contact us</h4>
                 <div className='widget widget_contact'>
                   <ul className='details text-white'>
-                    <li>
-                      <FaMapMarkerAlt className='sky'/>
-                      Al Sulaimaniyah,
-                      Riyadh 12242 - Saudi Arabia
-                    </li>
+                    {/*<li>*/}
+                    {/*  <FaMapMarkerAlt className='sky'/>*/}
+                    {/*  Al Sulaimaniyah,*/}
+                    {/*  Riyadh 12242 - Saudi Arabia*/}
+                    {/*</li>*/}
                     <li className='mt-3'>
-                      <FaPhoneAlt className='sky'/> (+970) 569 033 399
+                      <FaPhoneAlt className='sky'/> +(966)-54-044-8767
                     </li>
                     <li className='mt-2'>
-                      <FaEnvelope className='sky'/> info@newway.com
+                      <FaEnvelope className='sky'/> info@newway-jo.com
                     </li>
                   </ul>
                   <ul className='social-media mt-4'>
                     <li>
-                      <a href='#' className='sky'>
-                        <FaFacebookF/>
+                      <a href="https://www.linkedin.com/company/newway-solutions-llc" target="_blank">
+                        <FaLinkedin/>
                       </a>
                     </li>
-                    <li>
-                      <a href='#' className='sky'>
-                        <FaTwitter/>
-                      </a>
-                    </li>
-                    <li>
-                      <a href='#' className='sky'>
-                        <FaInstagram/>
-                      </a>
-                    </li>
-                    <li>
-                      <a href='#' className='sky'>
-                        <FaYoutube/>
-                      </a>
-                    </li>
+                    {/*<li>*/}
+                    {/*  <a href='#' className='sky'>*/}
+                    {/*    <FaFacebookF/>*/}
+                    {/*  </a>*/}
+                    {/*</li>*/}
+                    {/*<li>*/}
+                    {/*  <a href='#' className='sky'>*/}
+                    {/*    <FaTwitter/>*/}
+                    {/*  </a>*/}
+                    {/*</li>*/}
+                    {/*<li>*/}
+                    {/*  <a href='#' className='sky'>*/}
+                    {/*    <FaInstagram/>*/}
+                    {/*  </a>*/}
+                    {/*</li>*/}
+                    {/*<li>*/}
+                    {/*  <a href='#' className='sky'>*/}
+                    {/*    <FaYoutube/>*/}
+                    {/*  </a>*/}
+                    {/*</li>*/}
                   </ul>
                 </div>
               </div>
@@ -123,51 +129,31 @@ const FooterFour = () => {
                       <FaChevronRight/> Video Editing
                     </Link>
                   </li>
-                  <li className='sky'>
-                    <Link to='/service'>
-                      <FaChevronRight/> Pc Repairs
-                    </Link>
-                  </li>
-                  <li className='sky'>
-                    <Link to='/service'>
-                      <FaChevronRight/> Web Development
-                    </Link>
-                  </li>
                 </ul>
               </div>
             </div>
             <div className='col-lg-3 col-md-6 ps-xl-5'>
               <div className='widget widget_nav_menu'>
-                <h4 className='widget-title'>Pay links</h4>
+                <h4 className='widget-title'>About NewWay</h4>
                 <ul>
                   <li className='sky'>
-                    <Link to='/service'>
-                      <FaChevronRight/> Credit industrys
+                    <Link to='/about'>
+                      <FaChevronRight/> About us
                     </Link>
                   </li>
                   <li className='sky'>
-                    <Link to='/service'>
-                      <FaChevronRight/> Reasearch sector
+                    <Link to='/privacy-policy'>
+                      <FaChevronRight/> Privacy Policy
                     </Link>
                   </li>
                   <li className='sky'>
-                    <Link to='/service'>
-                      <FaChevronRight/> Finance Sector{" "}
+                    <Link to='/terms-of-use'>
+                      <FaChevronRight/> Terms of use
                     </Link>
                   </li>
                   <li className='sky'>
-                    <Link to='/service'>
-                      <FaChevronRight/> Credit industrys
-                    </Link>
-                  </li>
-                  <li className='sky'>
-                    <Link to='/service'>
-                      <FaChevronRight/> Reasearch sector
-                    </Link>
-                  </li>
-                  <li className='sky'>
-                    <Link to='/service'>
-                      <FaChevronRight/> Finance Sector
+                    <Link to='/contact'>
+                      <FaChevronRight/> Contact
                     </Link>
                   </li>
                 </ul>
@@ -216,12 +202,12 @@ const FooterFour = () => {
           <div className='container'>
             <div className='row'>
               <div className='col-md-6 align-self-center'>
-                <p>© New way 2024 | All Rights Reserved</p>
+                <p>© NewWay {new Date().getFullYear()} | All Rights Reserved</p>
               </div>
               <div className='col-md-6 text-lg-end'>
-                <a href='#'>Trams &amp; Condition</a>
-                <a href='#'>Privacy Policy</a>
-                <a href='#'>Contact Us</a>
+                <Link to='/privacy-policy'>Privacy Policy</Link>
+                <Link to='/terms-of-use'>Terms of use</Link>
+                <Link to='/contact'>Contact Us</Link>
               </div>
             </div>
           </div>
