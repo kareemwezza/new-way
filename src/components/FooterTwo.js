@@ -21,7 +21,7 @@ const FooterTwo = () => {
             <div className='col-lg-3 col-md-6'>
               <div className='widget widget_about'>
                 <div className='thumb'>
-                  <img src='assets/img/logo.png' alt='img' />
+                  <img src='/assets/img/logo.png' alt='img' />
                 </div>
                 <div className='details'>
                   <p>

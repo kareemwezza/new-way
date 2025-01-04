@@ -21,7 +21,7 @@ const TeamAreaTwo = () => {
             <div className='col-lg-4 col-md-6'>
               <div className='single-team-inner style-2 text-center'>
                 <div className='thumb'>
-                  <img src='assets/img/team/4.png' alt='img' />
+                  <img src='/assets/img/team/4.png' alt='img' />
                 </div>
                 <div className='details'>
                   <div className='details-inner'>
@@ -53,7 +53,7 @@ const TeamAreaTwo = () => {
             <div className='col-lg-4 col-md-6'>
               <div className='single-team-inner style-2 text-center'>
                 <div className='thumb'>
-                  <img src='assets/img/team/5.png' alt='img' />
+                  <img src='/assets/img/team/5.png' alt='img' />
                 </div>
                 <div className='details'>
                   <div className='details-inner'>
@@ -85,7 +85,7 @@ const TeamAreaTwo = () => {
             <div className='col-lg-4 col-md-6'>
               <div className='single-team-inner style-2 text-center'>
                 <div className='thumb'>
-                  <img src='assets/img/team/6.png' alt='img' />
+                  <img src='/assets/img/team/6.png' alt='img' />
                 </div>
                 <div className='details'>
                   <div className='details-inner'>

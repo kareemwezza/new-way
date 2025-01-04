@@ -25,11 +25,11 @@ const WorkProcessFour = () => {
                 <div className='single-work-process-inner style-2 text-center'>
                   <img
                     className='line-img'
-                    src='assets/img/about/29.png'
+                    src='/assets/img/about/29.png'
                     alt='img'
                   />
                   <div className='thumb mb-3'>
-                    <img src='assets/img/icon/36.svg' alt='img'/>
+                    <img src='/assets/img/icon/36.svg' alt='img'/>
                   </div>
                   <div className='details'>
                     <h5 className='mb-3'>Assessment</h5>
@@ -43,11 +43,11 @@ const WorkProcessFour = () => {
                 <div className='single-work-process-inner style-2 text-center'>
                   <img
                     className='line-img'
-                    src='assets/img/about/30.png'
+                    src='/assets/img/about/30.png'
                     alt='img'
                   />
                   <div className='thumb mb-3'>
-                    <img src='assets/img/icon/37.svg' alt='img'/>
+                    <img src='/assets/img/icon/37.svg' alt='img'/>
                   </div>
                   <div className='details'>
                     <h5 className='mb-3'>Implementation</h5>
@@ -61,11 +61,11 @@ const WorkProcessFour = () => {
                 <div className='single-work-process-inner style-2 text-center'>
                   <img
                     className='line-img'
-                    src='assets/img/about/29.png'
+                    src='/assets/img/about/29.png'
                     alt='img'
                   />
                   <div className='thumb mb-3'>
-                    <img src='assets/img/icon/38.svg' alt='img'/>
+                    <img src='/assets/img/icon/38.svg' alt='img'/>
                   </div>
                   <div className='details'>
                     <h5 className='mb-3'>Monitoring & Support</h5>
@@ -79,11 +79,11 @@ const WorkProcessFour = () => {
                 <div className='single-work-process-inner style-2 text-center'>
                   <img
                     className='line-img'
-                    src='assets/img/about/29.png'
+                    src='/assets/img/about/29.png'
                     alt='img'
                   />
                   <div className='thumb mb-3'>
-                    <img src='assets/img/icon/39.svg' alt='img'/>
+                    <img src='/assets/img/icon/39.svg' alt='img'/>
                   </div>
                   <div className='details'>
                     <h5 className='mb-3'>Optimization</h5>

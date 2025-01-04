@@ -25,7 +25,7 @@ const FooterFour = () => {
             <div className='footer-subscribe-inner box-shadow style-2 bg-white p-0 bg-cover'>
               <div className='media bg-base-2'>
                 <div className='media-left me-3 align-self-xl-center'>
-                  <img src='assets/img/icon/40.svg' alt='img'/>
+                  <img src='/assets/img/icon/40.svg' alt='img'/>
                 </div>
                 <div className='media-body'>
                   <h6 className='text-white'>+(970)-569-033-399</h6>

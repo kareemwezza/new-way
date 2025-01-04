@@ -72,7 +72,7 @@ const NavbarTwo = () => {
           </div>
           <div className="logo">
             <Link to="/">
-              <img src="assets/img/NWS-logo.png" alt="img" />
+              <img src="/assets/img/NWS-logo.png" alt="img" />
             </Link>
           </div>
           <div className="nav-right-part nav-right-part-mobile">

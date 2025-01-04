@@ -1,12 +1,80 @@
-import React from "react";
+import React, {useCallback, useEffect, useState} from "react";
 import {
   FaAngleDoubleRight,
   FaArrowRight,
   FaCheckCircle,
 } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
+import config from "../config";
 
 const ServiceDetailsArea = () => {
+  const { slug } = useParams();
+  const [isInitial, setIsInitial] = useState(false);
+  const [isInitialServices, setIsInitialServices] = useState(false);
+  const [isInitialService, setIsInitialService] = useState(false);
+  const [saveSlug, setSaveSlug] = useState('');
+  const [services, setServices] = useState([]);
+  const [service, setService] = useState({});
+
+  const fetchServices = useCallback(async () => {
+    if (isInitial && services.length <= 0) {
+      try {
+        const apiServicesUrl = `${config.API_URL}/services?page=1&page_size=5`;
+        const response = await fetch(apiServicesUrl);
+        if (!response.ok) {
+          throw new Error(`Error: ${response.statusText}`);
+        }
+        const result = await response.json();
+        setServices([...result.data]);
+      } catch (err) {
+        // setError(err.message);
+      } finally {
+        // setLoading(false);
+      }
+    }
+  }, [isInitial, services, setServices]);
+
+  const fetchService = useCallback(async () => {
+    if (isInitial && Object.keys(service).length <= 0 || saveSlug !== slug) {
+      try {
+        const apiServiceUrl = `${config.API_URL}/services/${slug}`;
+        const response = await fetch(apiServiceUrl);
+        if (!response.ok) {
+          throw new Error(`Error: ${response.statusText}`);
+        }
+        const result = await response.json();
+        setService({...result.data});
+      } catch (err) {
+        // setError(err.message);
+      } finally {
+        // setLoading(false);
+      }
+    }
+  }, [isInitial, slug, saveSlug, service, setService]);
+
+  useEffect(() => {
+    if (isInitial) {
+      if (!isInitialServices && services.length <= 0) {
+        setIsInitialServices(true);
+        fetchServices();
+      }
+      if (!isInitialService && Object.keys(service).length <= 0 || saveSlug !== slug) {
+        setSaveSlug(slug);
+        setIsInitialService(true);
+        fetchService();
+      }
+    }
+  }, [slug, saveSlug, setSaveSlug, isInitial, isInitialServices, setIsInitialServices, isInitialService, setIsInitialService, services, service, fetchServices, fetchService]);
+
+  useEffect(() => {
+    setIsInitial(true);
+    return () => {
+      setIsInitial(false);
+      setIsInitialServices(false);
+      setIsInitialService(false);
+    }
+  }, [setIsInitial, setIsInitialServices, setIsInitialService]);
+
   return (
     <>
       {/* ===================== Service Details Area start ===================== */}
@@ -17,29 +85,21 @@ const ServiceDetailsArea = () => {
               <div className='td-sidebar service-sidebar'>
                 <div className='widget widget_catagory'>
                   <h5 className='widget-title'>
-                    <FaArrowRight /> All Service lists
+                    <Link to="/services">
+                      <FaArrowRight /> All Service lists
+                    </Link>
                   </h5>
                   <ul className='catagory-items'>
-                    <li>
-                      <Link to='/service-details'> Planning Department</Link>
-                    </li>
-                    <li>
-                      <Link to='/service-details'> Software Department</Link>
-                    </li>
-                    <li>
-                      <Link to='/service-details'> Hardware Department</Link>
-                    </li>
-                    <li>
-                      <Link to='/service-details'> It Department</Link>
-                    </li>
-                    <li>
-                      <Link to='/service-details'> Others Development</Link>
-                    </li>
+                    {services.length > 0 && services.map((service) => (
+                      <li key={`catagory-items-service-${service.id}`}>
+                        <Link to={`/services/${service.slug}`}>{service.title}</Link>
+                      </li>
+                    ))}
                   </ul>
                 </div>
                 <div className='widget widget_author text-center'>
                   <div className='thumb'>
-                    <img src='assets/img/about/9.png' alt='img' />
+                    <img src='/assets/img/about/9.png' alt='img' />
                   </div>
                   <div className='details'>
                     <a className='btn btn-base border-radius-5' href='#'>
@@ -72,153 +132,13 @@ const ServiceDetailsArea = () => {
               <div className='blog-details-page-content'>
                 <div className='single-blog-inner mb-0'>
                   <div className='thumb'>
-                    <img src='assets/img/service/7.png' alt='img' />
+                    <img src={service.image && `${config.FILE_HOST}/${service.image}` || '/assets/img/service/7.png'} alt='img' />
                   </div>
                   <div className='details'>
                     <h4>
-                      Making this the first true generator on the Internet
+                      {service.title}
                     </h4>
-                    <p>
-                      Cras varius. Donec vitae orci sed dolor rutrum auctor.
-                      Fusce egestas elit eget lorem. Suspendisse nisl elit,
-                      rhoncus eget elementum acondimentum eget, diam. Nam at
-                      tortor in tellus interdum sagitliquam lobortis. Donec orci
-                      lectus, aliquam ut, faucibus non, euismod id, nulla.
-                      Curabitur blandit mollis lacus. Nam adipiscing. Vestibulum
-                      eu odio. Vivamus laoreet.
-                    </p>
-                    <p>
-                      Lorem available market standard dummy text available
-                      market industry Lorem Ipsum simply dummy text of free
-                      available market.There are many variations of passages of
-                      Lorem Ipsum available, but the majority have suffered
-                      alteration in some form,
-                    </p>
-                    <h4>Get touch have any question ?</h4>
-                    <p>
-                      It is a long established fact that a reader will be distr
-                      acted bioiiy the end gail readable content of a page when
-                      looking.
-                    </p>
-                    <div
-                      className='accordion accordion-inner accordion-icon-left mt-3 mb-4'
-                      id='accordionExample'
-                    >
-                      <div className='accordion-item'>
-                        <h2 className='accordion-header' id='headingOne'>
-                          <button
-                            className='accordion-button'
-                            type='button'
-                            data-bs-toggle='collapse'
-                            data-bs-target='#collapseOne'
-                            aria-expanded='true'
-                            aria-controls='collapseOne'
-                          >
-                            What services do you offer?
-                          </button>
-                        </h2>
-                        <div
-                          id='collapseOne'
-                          className='accordion-collapse collapse show'
-                          aria-labelledby='headingOne'
-                          data-bs-parent='#accordionExample'
-                        >
-                          <div className='accordion-body'>
-                            Many desktop publishing packages and web page
-                            editors now use Lorem Ipsum as their default model
-                            text, search for 'lorem ipsum' will uncover
-                          </div>
-                        </div>
-                      </div>
-                      <div className='accordion-item'>
-                        <h2 className='accordion-header' id='headingTwo'>
-                          <button
-                            className='accordion-button collapsed'
-                            type='button'
-                            data-bs-toggle='collapse'
-                            data-bs-target='#collapseTwo'
-                            aria-expanded='false'
-                            aria-controls='collapseTwo'
-                          >
-                            How long does it take for you to complete a project?
-                          </button>
-                        </h2>
-                        <div
-                          id='collapseTwo'
-                          className='accordion-collapse collapse'
-                          aria-labelledby='headingTwo'
-                          data-bs-parent='#accordionExample'
-                        >
-                          <div className='accordion-body'>
-                            Many desktop publishing packages and web page
-                            editors now use Lorem Ipsum as their default model
-                            text, search for 'lorem ipsum' will uncover
-                          </div>
-                        </div>
-                      </div>
-                      <div className='accordion-item'>
-                        <h2 className='accordion-header' id='headingThree'>
-                          <button
-                            className='accordion-button collapsed'
-                            type='button'
-                            data-bs-toggle='collapse'
-                            data-bs-target='#collapseThree'
-                            aria-expanded='false'
-                            aria-controls='collapseThree'
-                          >
-                            How much does it cost to work with your agency?
-                          </button>
-                        </h2>
-                        <div
-                          id='collapseThree'
-                          className='accordion-collapse collapse'
-                          aria-labelledby='headingThree'
-                          data-bs-parent='#accordionExample'
-                        >
-                          <div className='accordion-body'>
-                            Many desktop publishing packages and web page
-                            editors now use Lorem Ipsum as their default model
-                            text, search for 'lorem ipsum' will uncover
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <h4>Our Best it company</h4>
-                    <p>
-                      Thooiie point the of using the table.Your Startup industry
-                      is ours standard our service decesion loream saum solar
-                      sysem in the world.
-                    </p>
-                    <div className='row'>
-                      <div className='col-md-6'>
-                        <ul className='single-list-inner style-check style-check mb-3'>
-                          <li>
-                            <FaCheckCircle /> Creating a Balanced and Nutritious
-                          </li>
-                          <li>
-                            <FaCheckCircle /> iTechnology that helps grow
-                            companies
-                          </li>
-                          <li>
-                            <FaCheckCircle /> Everything you need to succeed
-                          </li>
-                        </ul>
-                      </div>
-                      <div className='col-md-6'>
-                        <ul className='single-list-inner style-check style-check mb-3'>
-                          <li>
-                            <FaCheckCircle /> Creating a Balanced and Nutritious
-                          </li>
-                          <li>
-                            <FaCheckCircle /> iTechnology that helps grow
-                            companies
-                          </li>
-                          <li>
-                            <FaCheckCircle /> Everything you need to succeed
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
+                    <p dangerouslySetInnerHTML={{__html: service.content}}></p>
                   </div>
                 </div>
               </div>

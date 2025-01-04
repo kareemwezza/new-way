@@ -66,7 +66,7 @@ const ServiceAreaFive = () => {
               {/*<div className="single-service-inner-3 single-service-inner-3-left">*/}
               {/*  <div className="thumb">*/}
               {/*    <div className="thumb-inner">*/}
-              {/*      <img src="assets/img/service-icon/7.svg" alt="img"/>*/}
+              {/*      <img src="/assets/img/service-icon/7.svg" alt="img"/>*/}
               {/*    </div>*/}
               {/*  </div>*/}
               {/*  <div className="details">*/}
@@ -85,7 +85,7 @@ const ServiceAreaFive = () => {
               {/*<div className="single-service-inner-3 single-service-inner-3-left">*/}
               {/*  <div className="thumb">*/}
               {/*    <div className="thumb-inner">*/}
-              {/*      <img src="assets/img/service-icon/10.svg" alt="img"/>*/}
+              {/*      <img src="/assets/img/service-icon/10.svg" alt="img"/>*/}
               {/*    </div>*/}
               {/*  </div>*/}
               {/*  <div className="details">*/}
@@ -102,7 +102,7 @@ const ServiceAreaFive = () => {
               {/*<div className="single-service-inner-3 single-service-inner-3-left mb-0">*/}
               {/*  <div className="thumb">*/}
               {/*    <div className="thumb-inner">*/}
-              {/*      <img src="assets/img/service-icon/9.svg" alt="img"/>*/}
+              {/*      <img src="/assets/img/service-icon/9.svg" alt="img"/>*/}
               {/*    </div>*/}
               {/*  </div>*/}
               {/*  <div className="details">*/}
@@ -121,7 +121,7 @@ const ServiceAreaFive = () => {
             </div>
             <div className="col-lg-4 col-md-6 bg-blue-right d-lg-inline-block d-none">
               <div className="service-thumb service-middle-section align-self-end">
-                <img src="assets/img/about/D4.png" alt="img"/>
+                <img src="/assets/img/about/D4.png" alt="img"/>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
@@ -149,7 +149,7 @@ const ServiceAreaFive = () => {
               {/*<div className="single-service-inner-3 single-service-inner-3-right">*/}
               {/*  <div className="thumb">*/}
               {/*    <div className="thumb-inner">*/}
-              {/*      <img src="assets/img/service-icon/8.svg" alt="img"/>*/}
+              {/*      <img src="/assets/img/service-icon/8.svg" alt="img"/>*/}
               {/*    </div>*/}
               {/*  </div>*/}
               {/*  <div className="details">*/}
@@ -168,7 +168,7 @@ const ServiceAreaFive = () => {
               {/*<div className="single-service-inner-3 single-service-inner-3-right">*/}
               {/*  <div className="thumb">*/}
               {/*    <div className="thumb-inner">*/}
-              {/*      <img src="assets/img/service-icon/11.svg" alt="img"/>*/}
+              {/*      <img src="/assets/img/service-icon/11.svg" alt="img"/>*/}
               {/*    </div>*/}
               {/*  </div>*/}
               {/*  <div className="details">*/}
@@ -185,7 +185,7 @@ const ServiceAreaFive = () => {
               {/*<div className="single-service-inner-3 single-service-inner-3-right mb-0">*/}
               {/*  <div className="thumb">*/}
               {/*    <div className="thumb-inner">*/}
-              {/*      <img src="assets/img/service-icon/12.svg" alt="img"/>*/}
+              {/*      <img src="/assets/img/service-icon/12.svg" alt="img"/>*/}
               {/*    </div>*/}
               {/*  </div>*/}
               {/*  <div className="details">*/}

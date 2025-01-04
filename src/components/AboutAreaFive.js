@@ -21,13 +21,13 @@ const AboutAreaFive = () => {
                   width="283px"
                   height="230px"
                   className="animate-img-3 z-index-2 top_image_bounce"
-                  src="assets/img/about/about-thumb.png"
+                  src="/assets/img/about/about-thumb.png"
                   alt="img"
                 />
                 <img
                   className="main-img"
                   style={{maxHeight: '450px', width: '100%', objectFit: 'cover'}}
-                  src="assets/img/about/about-newway.webp"
+                  src="/assets/img/about/about-newway.webp"
                   alt="img"
                 />
               </div>
@@ -87,22 +87,22 @@ const AboutAreaFive = () => {
             <div className='client-slider'>
               <Marquee gradient={false}>
                 <div className='thumb'>
-                  <img src='assets/img/client/1.svg' alt='img'/>
+                  <img src='/assets/img/client/1.svg' alt='img'/>
                 </div>
                 <div className='thumb'>
-                  <img src='assets/img/client/2.svg' alt='img'/>
+                  <img src='/assets/img/client/2.svg' alt='img'/>
                 </div>
                 <div className='thumb'>
-                  <img src='assets/img/client/3.svg' alt='img'/>
+                  <img src='/assets/img/client/3.svg' alt='img'/>
                 </div>
                 <div className='thumb'>
-                  <img src='assets/img/client/4.svg' alt='img'/>
+                  <img src='/assets/img/client/4.svg' alt='img'/>
                 </div>
                 <div className='thumb'>
-                  <img src='assets/img/client/5.svg' alt='img'/>
+                  <img src='/assets/img/client/5.svg' alt='img'/>
                 </div>
                 <div className='thumb'>
-                  <img src='assets/img/client/6.svg' alt='img'/>
+                  <img src='/assets/img/client/6.svg' alt='img'/>
                 </div>
               </Marquee>
             </div>

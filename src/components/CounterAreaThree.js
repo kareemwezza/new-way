@@ -11,7 +11,7 @@ const CounterAreaThree = () => {
             <div className='col-lg-3 col-md-6'>
               <div className='single-counter-inner style-2 text-center'>
                 <div className='thumb'>
-                  <img src='assets/img/icon/27.svg' alt='img' />
+                  <img src='/assets/img/icon/27.svg' alt='img' />
                 </div>
                 <h2 className='text-white mt-3 mb-2'>
                   <TrackVisibility once>
@@ -30,7 +30,7 @@ const CounterAreaThree = () => {
             <div className='col-lg-3 col-md-6'>
               <div className='single-counter-inner style-2 text-center'>
                 <div className='thumb'>
-                  <img src='assets/img/icon/28.svg' alt='img' />
+                  <img src='/assets/img/icon/28.svg' alt='img' />
                 </div>
                 <h2 className='text-white mt-3 mb-2'>
                   <TrackVisibility once>
@@ -49,7 +49,7 @@ const CounterAreaThree = () => {
             <div className='col-lg-3 col-md-6'>
               <div className='single-counter-inner style-2 text-center'>
                 <div className='thumb'>
-                  <img src='assets/img/icon/29.svg' alt='img' />
+                  <img src='/assets/img/icon/29.svg' alt='img' />
                 </div>
                 <h2 className='text-white mt-3 mb-2'>
                   <TrackVisibility once>
@@ -68,7 +68,7 @@ const CounterAreaThree = () => {
             <div className='col-lg-3 col-md-6'>
               <div className='single-counter-inner style-2 text-center'>
                 <div className='thumb'>
-                  <img src='assets/img/icon/30.svg' alt='img' />
+                  <img src='/assets/img/icon/30.svg' alt='img' />
                 </div>
                 <h2 className='text-white mt-3 mb-2'>
                   <TrackVisibility once>

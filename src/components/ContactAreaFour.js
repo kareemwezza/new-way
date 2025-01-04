@@ -17,12 +17,12 @@ const ContactAreaFour = () => {
               <div className='about-thumb-inner ms-xl-5 p-xl-5 pt-4 '>
                 <img
                   className='animate-main-img'
-                  src='assets/img/about/18.png'
+                  src='/assets/img/about/18.png'
                   alt='img'
                 />
                 <img
                   className='main-img m-4'
-                  src='assets/img/about/19.png'
+                  src='/assets/img/about/19.png'
                   alt='img'
                 />
               </div>

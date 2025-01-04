@@ -13,7 +13,7 @@ const ContactAreaThree = () => {
               data-aos-delay='200'
               data-aos-duration='1500'
             >
-              <img className='w-100' src='assets/img/about/12.png' alt='img' />
+              <img className='w-100' src='/assets/img/about/12.png' alt='img' />
             </div>
             <div
               className='col-lg-4'
@@ -28,7 +28,7 @@ const ContactAreaThree = () => {
                 </h2>
                 <div className='media mb-3'>
                   <div className='media-left me-3'>
-                    <img src='assets/img/icon/26.svg' alt='img' />
+                    <img src='/assets/img/icon/26.svg' alt='img' />
                   </div>
                   <div className='media-body'>
                     <h5>Felis in quam volutpat </h5>
@@ -40,7 +40,7 @@ const ContactAreaThree = () => {
                 </div>
                 <div className='media mb-3'>
                   <div className='media-left me-3'>
-                    <img src='assets/img/icon/26.svg' alt='img' />
+                    <img src='/assets/img/icon/26.svg' alt='img' />
                   </div>
                   <div className='media-body'>
                     <h5>Sed mi et in neque mattis</h5>
@@ -52,7 +52,7 @@ const ContactAreaThree = () => {
                 </div>
                 <div className='media'>
                   <div className='media-left me-3'>
-                    <img src='assets/img/icon/26.svg' alt='img' />
+                    <img src='/assets/img/icon/26.svg' alt='img' />
                   </div>
                   <div className='media-body'>
                     <h5>Commodo adipiscing </h5>

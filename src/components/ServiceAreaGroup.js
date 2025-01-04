@@ -33,7 +33,7 @@ const ServiceAreaGroup = () => {
       <div className="service-area bg-relative mb-5 pd-top-100">
         <img
           className="position-bottom-left top_image_bounce"
-          src="assets/img/icon/4.png"
+          src="/assets/img/icon/4.png"
           alt="img"
         />
         <div className="container">
@@ -52,10 +52,10 @@ const ServiceAreaGroup = () => {
                   </div>
                   <div className="details">
                     <h5>
-                      <Link to="/service-details">{data.title}</Link>
+                      <Link to={`/services/${data.slug}`}>{data.title}</Link>
                     </h5>
                     {/*<p>{data.content}</p>*/}
-                    <Link className="btn btn-border-base" to="/service-details">
+                    <Link className="btn btn-border-base" to={`/services/${data.slug}`}>
                       Touch More <FaPlus/>
                     </Link>
                   </div>

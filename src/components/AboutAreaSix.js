@@ -20,12 +20,12 @@ const AboutAreaSix = () => {
                   <img
                     width={'334px'}
                     className="animate-img-4 top_image_bounce z-index-2"
-                    src="assets/img/about/24.png"
+                    src="/assets/img/about/24.png"
                     alt="img"
                   />
                   <img
                     className="main-img"
-                    src="assets/img/about/about_2.webp"
+                    src="/assets/img/about/about_2.webp"
                     alt="img"
                   />
                   <a
@@ -33,7 +33,7 @@ const AboutAreaSix = () => {
                     className="video-play-btn-hover z-index-2"
                     href="javascript:void(0)"
                   >
-                    <img src="assets/img/video.svg" alt="img" />
+                    <img src="/assets/img/video.svg" alt="img" />
                   </a>
                 </div>
                 <ModalVideo
@@ -72,7 +72,7 @@ const AboutAreaSix = () => {
                         <div className="thumb mb-3">
                           <img
                             className="rotate-img"
-                            src="assets/img/about/25.png"
+                            src="/assets/img/about/25.png"
                             alt="img"
                           />
                         </div>
@@ -86,7 +86,7 @@ const AboutAreaSix = () => {
                         <div className="thumb mb-3">
                           <img
                             className="rotate-img"
-                            src="assets/img/about/26.png"
+                            src="/assets/img/about/26.png"
                             alt="img"
                           />
                         </div>
@@ -100,7 +100,7 @@ const AboutAreaSix = () => {
                         <div className="thumb mb-3">
                           <img
                             className="rotate-img"
-                            src="assets/img/about/27.png"
+                            src="/assets/img/about/27.png"
                             alt="img"
                           />
                         </div>

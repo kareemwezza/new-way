@@ -20,7 +20,7 @@ const CounterAreaOne = () => {
             >
               <div className='single-counter-inner'>
                 <div className='thumb'>
-                  <img src='assets/img/icon/5.svg' alt='img' />
+                  <img src='/assets/img/icon/5.svg' alt='img' />
                 </div>
                 <h2 className='text-white mt-4 mb-2'>
                   <TrackVisibility once>
@@ -45,7 +45,7 @@ const CounterAreaOne = () => {
             >
               <div className='single-counter-inner'>
                 <div className='thumb'>
-                  <img src='assets/img/icon/6.svg' alt='img' />
+                  <img src='/assets/img/icon/6.svg' alt='img' />
                 </div>
                 <h2 className='text-white mt-4 mb-2'>
                   <TrackVisibility once>
@@ -70,7 +70,7 @@ const CounterAreaOne = () => {
             >
               <div className='single-counter-inner'>
                 <div className='thumb'>
-                  <img src='assets/img/icon/7.svg' alt='img' />
+                  <img src='/assets/img/icon/7.svg' alt='img' />
                 </div>
                 <h2 className='text-white mt-4 mb-2'>
                   <TrackVisibility once>
@@ -95,7 +95,7 @@ const CounterAreaOne = () => {
             >
               <div className='single-counter-inner'>
                 <div className='thumb'>
-                  <img src='assets/img/icon/8.svg' alt='img' />
+                  <img src='/assets/img/icon/8.svg' alt='img' />
                 </div>
                 <h2 className='text-white mt-4 mb-2'>
                   <TrackVisibility once>

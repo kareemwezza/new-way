@@ -33,7 +33,7 @@ const TestimonialFive = () => {
                     aria-controls="home"
                     aria-selected="true"
                   >
-                    <img src="assets/img/testimonial/12.png" alt="img" />
+                    <img src="/assets/img/testimonial/12.png" alt="img" />
                   </button>
                 </li>
                 <li className="nav-item" role="presentation">
@@ -47,7 +47,7 @@ const TestimonialFive = () => {
                     aria-controls="profile"
                     aria-selected="false"
                   >
-                    <img src="assets/img/testimonial/12.png" alt="img" />
+                    <img src="/assets/img/testimonial/12.png" alt="img" />
                   </button>
                 </li>
                 <li className="nav-item" role="presentation">
@@ -61,7 +61,7 @@ const TestimonialFive = () => {
                     aria-controls="contact"
                     aria-selected="false"
                   >
-                    <img src="assets/img/testimonial/12.png" alt="img" />
+                    <img src="/assets/img/testimonial/12.png" alt="img" />
                   </button>
                 </li>
               </ul>

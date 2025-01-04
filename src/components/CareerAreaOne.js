@@ -84,7 +84,7 @@ const CareerAreaOne = () => {
                 <div className='career-wrap'>
                   <div className='row'>
                     <div className='col-lg-5'>
-                      <img src='assets/img/about/16.png' alt='img' />
+                      <img src='/assets/img/about/16.png' alt='img' />
                     </div>
                     <div className='col-lg-7'>
                       <h3 className='mb-3'>The software development</h3>
@@ -130,7 +130,7 @@ const CareerAreaOne = () => {
                 <div className='career-wrap'>
                   <div className='row'>
                     <div className='col-lg-5'>
-                      <img src='assets/img/about/17.png' alt='img' />
+                      <img src='/assets/img/about/17.png' alt='img' />
                     </div>
                     <div className='col-lg-7'>
                       <h3 className='mb-3'>The software development</h3>
@@ -176,7 +176,7 @@ const CareerAreaOne = () => {
                 <div className='career-wrap'>
                   <div className='row'>
                     <div className='col-lg-5'>
-                      <img src='assets/img/about/17.png' alt='img' />
+                      <img src='/assets/img/about/17.png' alt='img' />
                     </div>
                     <div className='col-lg-7'>
                       <h3 className='mb-3'>The software development</h3>
@@ -222,7 +222,7 @@ const CareerAreaOne = () => {
                 <div className='career-wrap'>
                   <div className='row'>
                     <div className='col-lg-5'>
-                      <img src='assets/img/about/16.png' alt='img' />
+                      <img src='/assets/img/about/16.png' alt='img' />
                     </div>
                     <div className='col-lg-7'>
                       <h3 className='mb-3'>The software development</h3>

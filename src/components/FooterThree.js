@@ -18,7 +18,7 @@ const FooterThree = () => {
             <div className='col-xl-3 col-lg-4 col-md-6'>
               <div className='widget widget_about'>
                 <div className='thumb'>
-                  <img src='assets/img/logo2.png' alt='img' />
+                  <img src='/assets/img/logo2.png' alt='img' />
                 </div>
                 <div className='details'>
                   <p>

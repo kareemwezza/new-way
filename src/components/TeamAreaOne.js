@@ -18,7 +18,7 @@ const TeamAreaOne = () => {
             <div className='col-lg-4 col-md-6'>
               <div className='single-team-inner text-center'>
                 <div className='thumb'>
-                  <img src='assets/img/team/1.png' alt='img' />
+                  <img src='/assets/img/team/1.png' alt='img' />
                   <ul className='team-social-inner'>
                     <li>
                       <a href='#'>
@@ -48,7 +48,7 @@ const TeamAreaOne = () => {
             <div className='col-lg-4 col-md-6'>
               <div className='single-team-inner text-center'>
                 <div className='thumb'>
-                  <img src='assets/img/team/2.png' alt='img' />
+                  <img src='/assets/img/team/2.png' alt='img' />
                   <ul className='team-social-inner'>
                     <li>
                       <a href='#'>
@@ -78,7 +78,7 @@ const TeamAreaOne = () => {
             <div className='col-lg-4 col-md-6'>
               <div className='single-team-inner text-center'>
                 <div className='thumb'>
-                  <img src='assets/img/team/3.png' alt='img' />
+                  <img src='/assets/img/team/3.png' alt='img' />
                   <ul className='team-social-inner'>
                     <li>
                       <a href='#'>

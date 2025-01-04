@@ -9,7 +9,7 @@ const CaseStudyAreaOne = () => {
       <div className='case-study-area bg-relative pd-top-110'>
         <img
           className='animate-img-1 top_image_bounce'
-          src='assets/img/banner/2.png'
+          src='/assets/img/banner/2.png'
           alt='img'
         />
         <div className='container'>
@@ -23,7 +23,7 @@ const CaseStudyAreaOne = () => {
             <div className='col-lg-4 col-md-6'>
               <div className='single-case-study-inner'>
                 <div className='thumb'>
-                  <img src='assets/img/case-study/1.png' alt='img' />
+                  <img src='/assets/img/case-study/1.png' alt='img' />
                 </div>
                 <div className='details'>
                   <h5>
@@ -41,7 +41,7 @@ const CaseStudyAreaOne = () => {
             <div className='col-lg-4 col-md-6'>
               <div className='single-case-study-inner'>
                 <div className='thumb'>
-                  <img src='assets/img/case-study/2.png' alt='img' />
+                  <img src='/assets/img/case-study/2.png' alt='img' />
                 </div>
                 <div className='details'>
                   <h5>
@@ -59,7 +59,7 @@ const CaseStudyAreaOne = () => {
             <div className='col-lg-4 col-md-6'>
               <div className='single-case-study-inner'>
                 <div className='thumb'>
-                  <img src='assets/img/case-study/3.png' alt='img' />
+                  <img src='/assets/img/case-study/3.png' alt='img' />
                 </div>
                 <div className='details'>
                   <h5>

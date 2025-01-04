@@ -7,22 +7,22 @@ const BrandAreaOne = () => {
         <div className='client-slider'>
           <Marquee gradient={false}>
             <div className='thumb'>
-              <img src='assets/img/client/7.svg' alt='img' />
+              <img src='/assets/img/client/7.svg' alt='img' />
             </div>
             <div className='thumb'>
-              <img src='assets/img/client/8.svg' alt='img' />
+              <img src='/assets/img/client/8.svg' alt='img' />
             </div>
             <div className='thumb'>
-              <img src='assets/img/client/9.svg' alt='img' />
+              <img src='/assets/img/client/9.svg' alt='img' />
             </div>
             <div className='thumb'>
-              <img src='assets/img/client/11.svg' alt='img' />
+              <img src='/assets/img/client/11.svg' alt='img' />
             </div>
             <div className='thumb'>
-              <img src='assets/img/client/8.svg' alt='img' />
+              <img src='/assets/img/client/8.svg' alt='img' />
             </div>
             <div className='thumb'>
-              <img src='assets/img/client/9.svg' alt='img' />
+              <img src='/assets/img/client/9.svg' alt='img' />
             </div>
           </Marquee>
         </div>

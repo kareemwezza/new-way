@@ -16,12 +16,12 @@ const AboutAreaFour = () => {
               >
                 <img
                   className='animate-main-img'
-                  src='assets/img/about/14.png'
+                  src='/assets/img/about/14.png'
                   alt='img'
                 />
                 <img
                   className='main-img m-md-4'
-                  src='assets/img/about/13.png'
+                  src='/assets/img/about/13.png'
                   alt='img'
                 />
               </div>
@@ -45,7 +45,7 @@ const AboutAreaFour = () => {
                 </p>
                 <div className='media box-shadow p-3 border-radius-5 mb-3'>
                   <div className='media-left me-3'>
-                    <img src='assets/img/icon/31.svg' alt='img' />
+                    <img src='/assets/img/icon/31.svg' alt='img' />
                   </div>
                   <div className='media-body'>
                     <div className='single-progressbar'>
@@ -64,7 +64,7 @@ const AboutAreaFour = () => {
                 </div>
                 <div className='media box-shadow p-3 border-radius-5 mb-3'>
                   <div className='media-left me-3'>
-                    <img src='assets/img/icon/32.svg' alt='img' />
+                    <img src='/assets/img/icon/32.svg' alt='img' />
                   </div>
                   <div className='media-body'>
                     <div className='single-progressbar'>

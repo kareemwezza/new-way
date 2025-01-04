@@ -18,7 +18,7 @@ const BlogAreaOne = () => {
             <div className='col-lg-4 col-md-6'>
               <div className='single-blog-list'>
                 <div className='thumb'>
-                  <img src='assets/img/blog/4.png' alt='img' />
+                  <img src='/assets/img/blog/4.png' alt='img' />
                 </div>
                 <div className='details'>
                   <p className='date mb-3'>
@@ -52,7 +52,7 @@ const BlogAreaOne = () => {
             <div className='col-lg-4 col-md-6'>
               <div className='single-blog-list'>
                 <div className='thumb'>
-                  <img src='assets/img/blog/5.png' alt='img' />
+                  <img src='/assets/img/blog/5.png' alt='img' />
                 </div>
                 <div className='details'>
                   <p className='date mb-3'>
@@ -86,7 +86,7 @@ const BlogAreaOne = () => {
             <div className='col-lg-4 col-md-6'>
               <div className='single-blog-list'>
                 <div className='thumb'>
-                  <img src='assets/img/blog/6.png' alt='img' />
+                  <img src='/assets/img/blog/6.png' alt='img' />
                 </div>
                 <div className='details'>
                   <p className='date mb-3'>

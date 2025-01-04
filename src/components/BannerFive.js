@@ -60,7 +60,7 @@ const BannerFive = () => {
                     onClick={() => setOpen(true)}
                     className="video-play-btn-hover"
                   >
-                    <img src="assets/img/video.svg" alt="img" />{' '}
+                    <img src="/assets/img/video.svg" alt="img" />{' '}
                     <h6 className="d-inline-block text-white">how we work</h6>
                   </a>
 
@@ -80,19 +80,19 @@ const BannerFive = () => {
                 <div className="main-img-wrap">
                   <img
                     className="banner-animate-img banner-animate-img-1 left_image_bounce"
-                    src="assets/img/banner-5/4.png"
+                    src="/assets/img/banner-5/4.png"
                     alt="img"
                   />
                   <img
                     className="banner-animate-img banner-animate-img-3 top_image_bounce"
                     className="banner-animate-img banner-animate-img-3 top_image_bounce"
-                    src="assets/img/banner-5/3.png"
+                    src="/assets/img/banner-5/3.png"
                     alt="img"
                   />
                   <div>
                     <img
                       className="main-img"
-                      src="assets/img/banner-5/newway_banner.png"
+                      src="/assets/img/banner-5/newway_banner.png"
                       alt="img"
                     />
                   </div>

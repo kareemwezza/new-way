@@ -68,7 +68,7 @@ const TestimonialOne = () => {
                   <h5>Devon Lane</h5>
                   <p className='designation mb-3'>Marketing Coordinator</p>
                   <div className='icon mb-2'>
-                    <img src='assets/img/icon/25.png' alt='img' />
+                    <img src='/assets/img/icon/25.png' alt='img' />
                   </div>
                   <p>
                     Contrary to popular belief, Lorem Ipsum is not simply random
@@ -83,7 +83,7 @@ const TestimonialOne = () => {
                     <FaStar />
                   </div>
                   <div className='thumb'>
-                    <img src='assets/img/testimonial/1.png' alt='img' />
+                    <img src='/assets/img/testimonial/1.png' alt='img' />
                   </div>
                 </div>
               </div>
@@ -92,7 +92,7 @@ const TestimonialOne = () => {
                   <h5>Devon Lane</h5>
                   <p className='designation mb-3'>Marketing Coordinator</p>
                   <div className='icon mb-2'>
-                    <img src='assets/img/icon/25.png' alt='img' />
+                    <img src='/assets/img/icon/25.png' alt='img' />
                   </div>
                   <p>
                     Contrary to popular belief, Lorem Ipsum is not simply random
@@ -107,7 +107,7 @@ const TestimonialOne = () => {
                     <FaStar />
                   </div>
                   <div className='thumb'>
-                    <img src='assets/img/testimonial/2.png' alt='img' />
+                    <img src='/assets/img/testimonial/2.png' alt='img' />
                   </div>
                 </div>
               </div>
@@ -116,7 +116,7 @@ const TestimonialOne = () => {
                   <h5>Devon Lane</h5>
                   <p className='designation mb-3'>Marketing Coordinator</p>
                   <div className='icon mb-2'>
-                    <img src='assets/img/icon/25.png' alt='img' />
+                    <img src='/assets/img/icon/25.png' alt='img' />
                   </div>
                   <p>
                     Contrary to popular belief, Lorem Ipsum is not simply random
@@ -131,7 +131,7 @@ const TestimonialOne = () => {
                     <FaStar />
                   </div>
                   <div className='thumb'>
-                    <img src='assets/img/testimonial/3.png' alt='img' />
+                    <img src='/assets/img/testimonial/3.png' alt='img' />
                   </div>
                 </div>
               </div>
@@ -140,7 +140,7 @@ const TestimonialOne = () => {
                   <h5>Devon Lane</h5>
                   <p className='designation mb-3'>Marketing Coordinator</p>
                   <div className='icon mb-2'>
-                    <img src='assets/img/icon/25.png' alt='img' />
+                    <img src='/assets/img/icon/25.png' alt='img' />
                   </div>
                   <p>
                     Contrary to popular belief, Lorem Ipsum is not simply random
@@ -155,7 +155,7 @@ const TestimonialOne = () => {
                     <FaStar />
                   </div>
                   <div className='thumb'>
-                    <img src='assets/img/testimonial/1.png' alt='img' />
+                    <img src='/assets/img/testimonial/1.png' alt='img' />
                   </div>
                 </div>
               </div>

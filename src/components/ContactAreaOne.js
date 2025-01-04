@@ -9,12 +9,12 @@ const ContactAreaOne = () => {
           <div className='contact-inner-1'>
             <img
               className='top_image_bounce animate-img-1'
-              src='assets/img/banner/2.png'
+              src='/assets/img/banner/2.png'
               alt='img'
             />
             <img
               className='top_image_bounce animate-img-2'
-              src='assets/img/about/6.png'
+              src='/assets/img/about/6.png'
               alt='img'
             />
             <div className='row'>
@@ -24,7 +24,7 @@ const ContactAreaOne = () => {
                 data-aos-delay='200'
                 data-aos-duration='1500'
               >
-                <img className='w-100' src='assets/img/bg/about-contact.webp' alt='img' />
+                <img className='w-100' src='/assets/img/bg/about-contact.webp' alt='img' />
               </div>
               <div
                 className='col-lg-4 wow animated fadeInRight'

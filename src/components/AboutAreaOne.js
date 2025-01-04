@@ -16,22 +16,22 @@ const AboutAreaOne = () => {
               >
                 <img
                   className='animate-img-1 top_image_bounce'
-                  src='assets/img/about/2.png'
+                  src='/assets/img/about/2.png'
                   alt='img'
                 />
                 <img
                   className='animate-img-2 left_image_bounce'
-                  src='assets/img/about/3.png'
+                  src='/assets/img/about/3.png'
                   alt='img'
                 />
                 <img
                   className='animate-img-3 top_image_bounce'
-                  src='assets/img/banner/5.svg'
+                  src='/assets/img/banner/5.svg'
                   alt='img'
                 />
                 <img
                   className='main-img'
-                  src='assets/img/about/1.png'
+                  src='/assets/img/about/1.png'
                   alt='img'
                 />
               </div>
@@ -56,7 +56,7 @@ const AboutAreaOne = () => {
                   <div className='col-md-6'>
                     <div className='single-about-inner'>
                       <div className='thumb mb-3'>
-                        <img src='assets/img/icon/2.png' alt='img' />
+                        <img src='/assets/img/icon/2.png' alt='img' />
                       </div>
                       <div className='details'>
                         <h5>Our Ambition</h5>
@@ -70,7 +70,7 @@ const AboutAreaOne = () => {
                   <div className='col-md-6'>
                     <div className='single-about-inner'>
                       <div className='thumb mb-3'>
-                        <img src='assets/img/icon/3.png' alt='img' />
+                        <img src='/assets/img/icon/3.png' alt='img' />
                       </div>
                       <div className='details'>
                         <h5>Our Ambition</h5>

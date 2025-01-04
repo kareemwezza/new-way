@@ -16,7 +16,7 @@ const WorkProcessOne = () => {
             <div className='col-xl-3 col-md-6'>
               <div className='single-work-process-inner'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/9.svg' alt='img' />
+                  <img src='/assets/img/icon/9.svg' alt='img' />
                 </div>
                 <div className='details'>
                   <p className='process-count'>Work 01</p>
@@ -31,7 +31,7 @@ const WorkProcessOne = () => {
             <div className='col-xl-3 col-md-6'>
               <div className='single-work-process-inner'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/10.svg' alt='img' />
+                  <img src='/assets/img/icon/10.svg' alt='img' />
                 </div>
                 <div className='details'>
                   <p className='process-count'>Work 02</p>
@@ -46,7 +46,7 @@ const WorkProcessOne = () => {
             <div className='col-xl-3 col-md-6'>
               <div className='single-work-process-inner'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/11.svg' alt='img' />
+                  <img src='/assets/img/icon/11.svg' alt='img' />
                 </div>
                 <div className='details'>
                   <p className='process-count'>Work 03</p>
@@ -61,7 +61,7 @@ const WorkProcessOne = () => {
             <div className='col-xl-3 col-md-6'>
               <div className='single-work-process-inner'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/12.svg' alt='img' />
+                  <img src='/assets/img/icon/12.svg' alt='img' />
                 </div>
                 <div className='details'>
                   <p className='process-count'>Work 04</p>

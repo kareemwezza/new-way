@@ -10,7 +10,7 @@ const ServiceAreaOne = () => {
       <div className='service-area bg-relative pd-top-100'>
         <img
           className='position-bottom-left top_image_bounce'
-          src='assets/img/icon/4.png'
+          src='/assets/img/icon/4.png'
           alt='img'
         />
         <div className='container'>

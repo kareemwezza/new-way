@@ -41,7 +41,7 @@ const FooterOne = () => {
             <div className='col-lg-3 col-md-6'>
               <div className='widget widget_about'>
                 <div className='thumb'>
-                  <img src='assets/img/logo2.png' alt='img' />
+                  <img src='/assets/img/logo2.png' alt='img' />
                 </div>
                 <div className='details'>
                   <p>
@@ -159,7 +159,7 @@ const FooterOne = () => {
                   <li>
                     <div className='media'>
                       <div className='media-left'>
-                        <img src='assets/img/widget/1.png' alt='blog' />
+                        <img src='/assets/img/widget/1.png' alt='blog' />
                       </div>
                       <div className='media-body align-self-center'>
                         <div className='post-info mb-2'>
@@ -177,7 +177,7 @@ const FooterOne = () => {
                   <li>
                     <div className='media'>
                       <div className='media-left'>
-                        <img src='assets/img/widget/2.png' alt='blog' />
+                        <img src='/assets/img/widget/2.png' alt='blog' />
                       </div>
                       <div className='media-body align-self-center'>
                         <div className='post-info mb-2'>

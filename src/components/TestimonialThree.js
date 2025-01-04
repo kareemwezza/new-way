@@ -66,11 +66,11 @@ const TestimonialThree = () => {
                     <div className='col-md-5'>
                       <div className='thumb'>
                         <div className='shadow-img'>
-                          <img src='assets/img/testimonial/0.png' alt='img' />
+                          <img src='/assets/img/testimonial/0.png' alt='img' />
                         </div>
                         <img
                           className='main-img'
-                          src='assets/img/testimonial/10.png'
+                          src='/assets/img/testimonial/10.png'
                           alt='img'
                         />
                       </div>
@@ -79,7 +79,7 @@ const TestimonialThree = () => {
                       <div className='details'>
                         <img
                           className='quote'
-                          src='assets/img/testimonial/01.png'
+                          src='/assets/img/testimonial/01.png'
                           alt='img'
                         />
                         <p className='designation mb-0'>
@@ -106,11 +106,11 @@ const TestimonialThree = () => {
                     <div className='col-md-5'>
                       <div className='thumb'>
                         <div className='shadow-img'>
-                          <img src='assets/img/testimonial/0.png' alt='img' />
+                          <img src='/assets/img/testimonial/0.png' alt='img' />
                         </div>
                         <img
                           className='main-img'
-                          src='assets/img/testimonial/11.png'
+                          src='/assets/img/testimonial/11.png'
                           alt='img'
                         />
                       </div>
@@ -119,7 +119,7 @@ const TestimonialThree = () => {
                       <div className='details'>
                         <img
                           className='quote'
-                          src='assets/img/testimonial/01.png'
+                          src='/assets/img/testimonial/01.png'
                           alt='img'
                         />
                         <p className='designation mb-0'>
@@ -146,11 +146,11 @@ const TestimonialThree = () => {
                     <div className='col-md-5'>
                       <div className='thumb'>
                         <div className='shadow-img'>
-                          <img src='assets/img/testimonial/0.png' alt='img' />
+                          <img src='/assets/img/testimonial/0.png' alt='img' />
                         </div>
                         <img
                           className='main-img'
-                          src='assets/img/testimonial/10.png'
+                          src='/assets/img/testimonial/10.png'
                           alt='img'
                         />
                       </div>
@@ -159,7 +159,7 @@ const TestimonialThree = () => {
                       <div className='details'>
                         <img
                           className='quote'
-                          src='assets/img/testimonial/01.png'
+                          src='/assets/img/testimonial/01.png'
                           alt='img'
                         />
                         <p className='designation mb-0'>
@@ -186,11 +186,11 @@ const TestimonialThree = () => {
                     <div className='col-md-5'>
                       <div className='thumb'>
                         <div className='shadow-img'>
-                          <img src='assets/img/testimonial/0.png' alt='img' />
+                          <img src='/assets/img/testimonial/0.png' alt='img' />
                         </div>
                         <img
                           className='main-img'
-                          src='assets/img/testimonial/11.png'
+                          src='/assets/img/testimonial/11.png'
                           alt='img'
                         />
                       </div>
@@ -199,7 +199,7 @@ const TestimonialThree = () => {
                       <div className='details'>
                         <img
                           className='quote'
-                          src='assets/img/testimonial/01.png'
+                          src='/assets/img/testimonial/01.png'
                           alt='img'
                         />
                         <p className='designation mb-0'>

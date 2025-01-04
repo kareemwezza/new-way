@@ -23,7 +23,7 @@ const ServiceAreaThree = () => {
             <div className='col-lg-4 col-md-6'>
               <div className='single-service-inner style-3'>
                 <div className='thumb'>
-                  <img src='assets/img/service-icon/1.png' alt='img' />
+                  <img src='/assets/img/service-icon/1.png' alt='img' />
                 </div>
                 <div className='details'>
                   <h5>
@@ -42,7 +42,7 @@ const ServiceAreaThree = () => {
             <div className='col-lg-4 col-md-6'>
               <div className='single-service-inner style-3'>
                 <div className='thumb'>
-                  <img src='assets/img/service-icon/2.png' alt='img' />
+                  <img src='/assets/img/service-icon/2.png' alt='img' />
                 </div>
                 <div className='details'>
                   <h5>
@@ -61,7 +61,7 @@ const ServiceAreaThree = () => {
             <div className='col-lg-4 col-md-6'>
               <div className='single-service-inner style-3'>
                 <div className='thumb'>
-                  <img src='assets/img/service-icon/3.png' alt='img' />
+                  <img src='/assets/img/service-icon/3.png' alt='img' />
                 </div>
                 <div className='details'>
                   <h5>

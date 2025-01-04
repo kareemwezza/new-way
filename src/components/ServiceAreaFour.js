@@ -25,7 +25,7 @@ const ServiceAreaFour = () => {
             <div className='col-xl-3 col-md-6'>
               <div className='single-work-process-inner'>
                 <div className='thumb mb-4'>
-                  <img src='assets/img/icon/18.svg' alt='img' />
+                  <img src='/assets/img/icon/18.svg' alt='img' />
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>Web Development</h5>
@@ -42,7 +42,7 @@ const ServiceAreaFour = () => {
             <div className='col-xl-3 col-md-6'>
               <div className='single-work-process-inner'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/16.svg' alt='img' />
+                  <img src='/assets/img/icon/16.svg' alt='img' />
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>Big Data Analytics</h5>
@@ -59,7 +59,7 @@ const ServiceAreaFour = () => {
             <div className='col-xl-3 col-md-6'>
               <div className='single-work-process-inner'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/17.svg' alt='img' />
+                  <img src='/assets/img/icon/17.svg' alt='img' />
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>Cyber security</h5>
@@ -76,7 +76,7 @@ const ServiceAreaFour = () => {
             <div className='col-xl-3 col-md-6'>
               <div className='single-work-process-inner'>
                 <div className='thumb mb-3'>
-                  <img src='assets/img/icon/20.svg' alt='img' />
+                  <img src='/assets/img/icon/20.svg' alt='img' />
                 </div>
                 <div className='details'>
                   <h5 className='mb-3'>Mobile App</h5>

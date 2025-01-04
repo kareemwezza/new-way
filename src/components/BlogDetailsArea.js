@@ -24,7 +24,7 @@ const BlogDetailsArea = () => {
               <div className='blog-details-page-content'>
                 <div className='single-blog-inner'>
                   <div className='thumb'>
-                    <img src='assets/img/blog/1.png' alt='img' />
+                    <img src='/assets/img/blog/1.png' alt='img' />
                   </div>
                   <div className='details'>
                     <ul className='blog-meta'>
@@ -63,17 +63,17 @@ const BlogDetailsArea = () => {
                     <div className='row'>
                       <div className='col-md-4'>
                         <div className='thumb'>
-                          <img src='assets/img/blog/4.png' alt='img' />
+                          <img src='/assets/img/blog/4.png' alt='img' />
                         </div>
                       </div>
                       <div className='col-md-4'>
                         <div className='thumb'>
-                          <img src='assets/img/blog/5.png' alt='img' />
+                          <img src='/assets/img/blog/5.png' alt='img' />
                         </div>
                       </div>
                       <div className='col-md-4'>
                         <div className='thumb'>
-                          <img src='assets/img/blog/6.png' alt='img' />
+                          <img src='/assets/img/blog/6.png' alt='img' />
                         </div>
                       </div>
                     </div>
@@ -140,7 +140,7 @@ const BlogDetailsArea = () => {
                     <img
                       className='avatar'
                       alt='img'
-                      src='assets/img/about/8.png'
+                      src='/assets/img/about/8.png'
                     />
                   </div>
                   <div className='media-body align-self-center'>
@@ -164,7 +164,7 @@ const BlogDetailsArea = () => {
                             <img
                               className='avatar'
                               alt='img'
-                              src='assets/img/about/7.png'
+                              src='/assets/img/about/7.png'
                             />{" "}
                             <a
                               href=''
@@ -205,7 +205,7 @@ const BlogDetailsArea = () => {
                             <img
                               className='avatar'
                               alt='img'
-                              src='assets/img/about/7.png'
+                              src='/assets/img/about/7.png'
                             />
                             <a
                               href='http://example.org/'
@@ -274,7 +274,7 @@ const BlogDetailsArea = () => {
               <div className='td-sidebar'>
                 <div className='widget widget_author text-center'>
                   <div className='thumb'>
-                    <img src='assets/img/about/7.png' alt='img' />
+                    <img src='/assets/img/about/7.png' alt='img' />
                   </div>
                   <div className='details'>
                     <h5>Leslie Alexander</h5>
@@ -314,7 +314,7 @@ const BlogDetailsArea = () => {
                     <li>
                       <div className='media'>
                         <div className='media-left'>
-                          <img src='assets/img/widget/1.png' alt='blog' />
+                          <img src='/assets/img/widget/1.png' alt='blog' />
                         </div>
                         <div className='media-body align-self-center'>
                           <h6 className='title'>
@@ -332,7 +332,7 @@ const BlogDetailsArea = () => {
                     <li>
                       <div className='media'>
                         <div className='media-left'>
-                          <img src='assets/img/widget/2.png' alt='blog' />
+                          <img src='/assets/img/widget/2.png' alt='blog' />
                         </div>
                         <div className='media-body align-self-center'>
                           <h6 className='title'>
@@ -350,7 +350,7 @@ const BlogDetailsArea = () => {
                     <li>
                       <div className='media'>
                         <div className='media-left'>
-                          <img src='assets/img/widget/3.png' alt='blog' />
+                          <img src='/assets/img/widget/3.png' alt='blog' />
                         </div>
                         <div className='media-body align-self-center'>
                           <h6 className='title'>

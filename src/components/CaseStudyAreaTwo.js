@@ -19,7 +19,7 @@ const CaseStudyAreaTwo = () => {
             <div className="col-lg-8 col-md-6">
               <div className="single-case-study-inner style-2">
                 <div className="thumb">
-                  <img src="assets/img/service/D5.png" alt="img" />
+                  <img src="/assets/img/service/D5.png" alt="img" />
                 </div>
                 <div className="details">
                   <h5>
@@ -34,7 +34,7 @@ const CaseStudyAreaTwo = () => {
                 <div className="col-lg-6">
                   <div className="single-case-study-inner style-2">
                     <div className="thumb">
-                      <img src="assets/img/service/D6-01.png" alt="img" />
+                      <img src="/assets/img/service/D6-01.png" alt="img" />
                     </div>
                     <div className="details">
                       <h5>
@@ -49,7 +49,7 @@ const CaseStudyAreaTwo = () => {
                 <div className="col-lg-6">
                   <div className="single-case-study-inner style-2">
                     <div className="thumb">
-                      <img src="assets/img/service/D6-02.png" alt="img" />
+                      <img src="/assets/img/service/D6-02.png" alt="img" />
                     </div>
                     <div className="details">
                       <h5>
@@ -66,7 +66,7 @@ const CaseStudyAreaTwo = () => {
             <div className="col-lg-4 col-md-6">
               <div className="single-case-study-inner style-2">
                 <div className="thumb">
-                  <img src="assets/img/service/D6-03.png" alt="img" />
+                  <img src="/assets/img/service/D6-03.png" alt="img" />
                 </div>
                 <div className="details">
                   <h5>
@@ -79,7 +79,7 @@ const CaseStudyAreaTwo = () => {
               </div>
               <div className="single-case-study-inner style-2">
                 <div className="thumb">
-                  <img src="assets/img/service/D6-04.png" alt="img" />
+                  <img src="/assets/img/service/D6-04.png" alt="img" />
                 </div>
                 <div className="details">
                   <h5>

@@ -21,13 +21,13 @@ const BlogAreaFive = () => {
             <div className='col-lg-4 col-md-6'>
               <div className='single-blog-list style-3'>
                 <div className='thumb'>
-                  <img src='assets/img/blog/4.png' alt='img' />
+                  <img src='/assets/img/blog/4.png' alt='img' />
                 </div>
                 <div className='details'>
                   <ul className='blog-meta'>
                     <li>
                       <span>
-                        <img src='assets/img/testimonial/1.png' alt='img' />
+                        <img src='/assets/img/testimonial/1.png' alt='img' />
                       </span>{" "}
                       Admin
                     </li>
@@ -55,13 +55,13 @@ const BlogAreaFive = () => {
             <div className='col-lg-4 col-md-6'>
               <div className='single-blog-list style-3'>
                 <div className='thumb'>
-                  <img src='assets/img/blog/5.png' alt='img' />
+                  <img src='/assets/img/blog/5.png' alt='img' />
                 </div>
                 <div className='details'>
                   <ul className='blog-meta'>
                     <li>
                       <span>
-                        <img src='assets/img/testimonial/1.png' alt='img' />
+                        <img src='/assets/img/testimonial/1.png' alt='img' />
                       </span>{" "}
                       Admin
                     </li>
@@ -89,13 +89,13 @@ const BlogAreaFive = () => {
             <div className='col-lg-4 col-md-6'>
               <div className='single-blog-list style-3'>
                 <div className='thumb'>
-                  <img src='assets/img/blog/6.png' alt='img' />
+                  <img src='/assets/img/blog/6.png' alt='img' />
                 </div>
                 <div className='details'>
                   <ul className='blog-meta'>
                     <li>
                       <span>
-                        <img src='assets/img/testimonial/1.png' alt='img' />
+                        <img src='/assets/img/testimonial/1.png' alt='img' />
                       </span>{" "}
                       Admin
                     </li>

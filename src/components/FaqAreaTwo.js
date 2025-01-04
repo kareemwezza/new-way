@@ -13,14 +13,14 @@ const FaqAreaTwo = () => {
               <div className='about-thumb-inner video-thumb'>
                 <img
                   className='main-img'
-                  src='assets/img/about/15.png'
+                  src='/assets/img/about/15.png'
                   alt='img'
                 />
                 <span
                   onClick={() => setOpen(true)}
                   className='video-play-btn-hover'
                 >
-                  <img src='assets/img/video.svg' alt='img' />{" "}
+                  <img src='/assets/img/video.svg' alt='img' />{" "}
                   <h6 className='d-inline-block'>how we work</h6>
                 </span>
                 <ModalVideo

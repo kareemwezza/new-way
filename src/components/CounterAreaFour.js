@@ -24,7 +24,7 @@ const CounterAreaFour = () => {
               <div className='col-lg-3 col-md-6 '>
                 <div className='single-counter-inner media'>
                   <div className='thumb media-left pe-2'>
-                    <img src='assets/img/icon/33.svg' alt='img' />
+                    <img src='/assets/img/icon/33.svg' alt='img' />
                   </div>
                   <div className='media-body align-self-center'>
                     <h4 className='text-white mb-1'>
@@ -45,7 +45,7 @@ const CounterAreaFour = () => {
               <div className='col-lg-3 col-md-6 '>
                 <div className='single-counter-inner media'>
                   <div className='thumb media-left pe-2'>
-                    <img src='assets/img/icon/34.svg' alt='img' />
+                    <img src='/assets/img/icon/34.svg' alt='img' />
                   </div>
                   <div className='media-body align-self-center'>
                     <h4 className='text-white mb-1'>
@@ -66,7 +66,7 @@ const CounterAreaFour = () => {
               <div className='col-lg-3 col-md-6 '>
                 <div className='single-counter-inner media'>
                   <div className='thumb media-left pe-2'>
-                    <img src='assets/img/icon/35.svg' alt='img' />
+                    <img src='/assets/img/icon/35.svg' alt='img' />
                   </div>
                   <div className='media-body align-self-center'>
                     <h4 className='text-white mb-1'>

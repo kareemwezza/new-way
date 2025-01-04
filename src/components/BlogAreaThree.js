@@ -28,7 +28,7 @@ const BlogAreaThree = () => {
                 <div className='thumb'>
                   <img
                     className='border-radius-5'
-                    src='assets/img/blog/4.png'
+                    src='/assets/img/blog/4.png'
                     alt='img'
                   />
                   <p className='date'>31 December,2022</p>
@@ -58,7 +58,7 @@ const BlogAreaThree = () => {
                 <div className='thumb'>
                   <img
                     className='border-radius-5'
-                    src='assets/img/blog/5.png'
+                    src='/assets/img/blog/5.png'
                     alt='img'
                   />
                   <p className='date'>31 November,2022</p>
@@ -88,7 +88,7 @@ const BlogAreaThree = () => {
                 <div className='thumb'>
                   <img
                     className='border-radius-5'
-                    src='assets/img/blog/6.png'
+                    src='/assets/img/blog/6.png'
                     alt='img'
                   />
                   <p className='date'>31 December,2022</p>

@@ -12,12 +12,12 @@ const BannerOne = () => {
       >
         <img
           className='animate-img-1 top_image_bounce'
-          src='assets/img/banner/2.png'
+          src='/assets/img/banner/2.png'
           alt='img'
         />
         <img
           className='animate-img-2 left_image_bounce'
-          src='assets/img/banner/5.svg'
+          src='/assets/img/banner/5.svg'
           alt='img'
         />
         <div className='container'>
@@ -70,22 +70,22 @@ const BannerOne = () => {
               >
                 <img
                   className='banner-animate-img banner-animate-img-1 top_image_bounce'
-                  src='assets/img/banner/2.png'
+                  src='/assets/img/banner/2.png'
                   alt='img'
                 />
                 <img
                   className='banner-animate-img banner-animate-img-2'
-                  src='assets/img/banner/3.svg'
+                  src='/assets/img/banner/3.svg'
                   alt='img'
                 />
                 <img
                   className='banner-animate-img banner-animate-img-3 left_image_bounce'
-                  src='assets/img/banner/4.svg'
+                  src='/assets/img/banner/4.svg'
                   alt='img'
                 />
                 <img
                   className='main-img'
-                  src='assets/img/banner/1.png'
+                  src='/assets/img/banner/1.png'
                   alt='img'
                 />
               </div>

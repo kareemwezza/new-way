@@ -19,7 +19,7 @@ const TeamDetailsGroup = () => {
             <div className='row'>
               <div className='col-lg-5 text-center'>
                 <div className='thumb mb-4 mb-lg-0'>
-                  <img src='assets/img/team/7.png' alt='img' />
+                  <img src='/assets/img/team/7.png' alt='img' />
                 </div>
               </div>
               <div className='col-lg-7 align-self-center ps-xl-5'>
@@ -84,7 +84,7 @@ const TeamDetailsGroup = () => {
             <div className='col-lg-4 col-md-6'>
               <div className='single-service-inner text-center'>
                 <div className='thumb'>
-                  <img src='assets/img/service-icon/1.png' alt='img' />
+                  <img src='/assets/img/service-icon/1.png' alt='img' />
                 </div>
                 <div className='details'>
                   <h5>
@@ -103,7 +103,7 @@ const TeamDetailsGroup = () => {
             <div className='col-lg-4 col-md-6'>
               <div className='single-service-inner text-center'>
                 <div className='thumb'>
-                  <img src='assets/img/service-icon/2.png' alt='img' />
+                  <img src='/assets/img/service-icon/2.png' alt='img' />
                 </div>
                 <div className='details'>
                   <h5>
@@ -122,7 +122,7 @@ const TeamDetailsGroup = () => {
             <div className='col-lg-4 col-md-6'>
               <div className='single-service-inner text-center'>
                 <div className='thumb'>
-                  <img src='assets/img/service-icon/3.png' alt='img' />
+                  <img src='/assets/img/service-icon/3.png' alt='img' />
                 </div>
                 <div className='details'>
                   <h5>

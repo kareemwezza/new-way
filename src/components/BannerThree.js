@@ -12,7 +12,7 @@ const BannerThree = () => {
         className='banner-area bg-relative banner-area-2 bg-cover'
         style={{ backgroundImage: 'url("./assets/img/banner-3/5.png")' }}
       >
-        <img className='bg-img-2' src='assets/img/banner-3/4.png' alt='img' />
+        <img className='bg-img-2' src='/assets/img/banner-3/4.png' alt='img' />
         <div className='container'>
           <div className='row'>
             <div className='col-lg-6 align-self-center'>
@@ -62,7 +62,7 @@ const BannerThree = () => {
                     onClick={() => setOpen(true)}
                     className='video-play-btn-hover'
                   >
-                    <img src='assets/img/video.svg' alt='img' />{" "}
+                    <img src='/assets/img/video.svg' alt='img' />{" "}
                     <h6 className='d-inline-block'>how we work</h6>
                   </span>
                 </div>
@@ -85,17 +85,17 @@ const BannerThree = () => {
                 <div className='main-img-wrap'>
                   <img
                     className='banner-animate-img banner-animate-img-1 left_image_bounce'
-                    src='assets/img/banner-3/2.svg'
+                    src='/assets/img/banner-3/2.svg'
                     alt='img'
                   />
                   <img
                     className='banner-animate-img banner-animate-img-2 left_image_bounce'
-                    src='assets/img/banner-3/3.svg'
+                    src='/assets/img/banner-3/3.svg'
                     alt='img'
                   />
                   <img
                     className='main-img'
-                    src='assets/img/banner-3/1.png'
+                    src='/assets/img/banner-3/1.png'
                     alt='img'
                   />
                 </div>

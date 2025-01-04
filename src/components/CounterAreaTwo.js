@@ -19,7 +19,7 @@ const CounterAreaTwo = () => {
             >
               <div className='single-counter-inner media'>
                 <div className='thumb media-left pe-4'>
-                  <img src='assets/img/icon/16.svg' alt='img' />
+                  <img src='/assets/img/icon/16.svg' alt='img' />
                 </div>
                 <div className='media-body'>
                   <h4 className='mb-1'>
@@ -45,7 +45,7 @@ const CounterAreaTwo = () => {
             >
               <div className='single-counter-inner media'>
                 <div className='thumb media-left pe-4'>
-                  <img src='assets/img/icon/17.svg' alt='img' />
+                  <img src='/assets/img/icon/17.svg' alt='img' />
                 </div>
                 <div className='media-body'>
                   <h4 className='mb-1'>
@@ -71,7 +71,7 @@ const CounterAreaTwo = () => {
             >
               <div className='single-counter-inner media'>
                 <div className='thumb media-left pe-4'>
-                  <img src='assets/img/icon/18.svg' alt='img' />
+                  <img src='/assets/img/icon/18.svg' alt='img' />
                 </div>
                 <div className='media-body'>
                   <h4 className='mb-1'>
@@ -97,7 +97,7 @@ const CounterAreaTwo = () => {
             >
               <div className='single-counter-inner media'>
                 <div className='thumb media-left pe-4'>
-                  <img src='assets/img/icon/19.svg' alt='img' />
+                  <img src='/assets/img/icon/19.svg' alt='img' />
                 </div>
                 <div className='media-body'>
                   <h4 className='mb-1'>

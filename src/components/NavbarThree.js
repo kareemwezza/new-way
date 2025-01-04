@@ -72,7 +72,7 @@ const NavbarThree = () => {
           </div>
           <div className='logo'>
             <Link to='/'>
-              <img src='assets/img/logo.png' alt='img' />
+              <img src='/assets/img/logo.png' alt='img' />
             </Link>
           </div>
           <div className='nav-right-part nav-right-part-mobile'>
@@ -156,7 +156,7 @@ const NavbarThree = () => {
           <div className='nav-right-part nav-right-part-desktop d-lg-inline-flex align-item-center'>
             <a className='navbar-phone d-xl-inline-block d-none' href='tel:'>
               <span className='icon'>
-                <img src='assets/img/icon/1.png' alt='img' />
+                <img src='/assets/img/icon/1.png' alt='img' />
               </span>
               <span>Need help?</span>
               <h5>(808) 555-0111</h5>

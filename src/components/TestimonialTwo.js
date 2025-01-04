@@ -62,7 +62,7 @@ const TestimonialTwo = () => {
                   <div className='row'>
                     <div className='col-12'>
                       <div className='icon mb-2'>
-                        <img src='assets/img/icon/25.png' alt='img' />
+                        <img src='/assets/img/icon/25.png' alt='img' />
                       </div>
                     </div>
                     <div className='col-sm-8'>
@@ -73,7 +73,7 @@ const TestimonialTwo = () => {
                     </div>
                     <div className='col-sm-4 align-self-center text-sm-end mt-4 mt-sm-0'>
                       <div className='thumb d-inline-block'>
-                        <img src='assets/img/testimonial/4.png' alt='img' />
+                        <img src='/assets/img/testimonial/4.png' alt='img' />
                       </div>
                     </div>
                     <div className='col-sm-8 mt-4'>
@@ -97,7 +97,7 @@ const TestimonialTwo = () => {
                   <div className='row'>
                     <div className='col-12'>
                       <div className='icon mb-2'>
-                        <img src='assets/img/icon/25.png' alt='img' />
+                        <img src='/assets/img/icon/25.png' alt='img' />
                       </div>
                     </div>
                     <div className='col-sm-8'>
@@ -108,7 +108,7 @@ const TestimonialTwo = () => {
                     </div>
                     <div className='col-sm-4 align-self-center text-sm-end mt-4 mt-sm-0'>
                       <div className='thumb d-inline-block'>
-                        <img src='assets/img/testimonial/5.png' alt='img' />
+                        <img src='/assets/img/testimonial/5.png' alt='img' />
                       </div>
                     </div>
                     <div className='col-sm-8 mt-4'>
@@ -132,7 +132,7 @@ const TestimonialTwo = () => {
                   <div className='row'>
                     <div className='col-12'>
                       <div className='icon mb-2'>
-                        <img src='assets/img/icon/25.png' alt='img' />
+                        <img src='/assets/img/icon/25.png' alt='img' />
                       </div>
                     </div>
                     <div className='col-sm-8'>
@@ -143,7 +143,7 @@ const TestimonialTwo = () => {
                     </div>
                     <div className='col-sm-4 align-self-center text-sm-end mt-4 mt-sm-0'>
                       <div className='thumb d-inline-block'>
-                        <img src='assets/img/testimonial/4.png' alt='img' />
+                        <img src='/assets/img/testimonial/4.png' alt='img' />
                       </div>
                     </div>
                     <div className='col-sm-8 mt-4'>
@@ -167,7 +167,7 @@ const TestimonialTwo = () => {
                   <div className='row'>
                     <div className='col-12'>
                       <div className='icon mb-2'>
-                        <img src='assets/img/icon/25.png' alt='img' />
+                        <img src='/assets/img/icon/25.png' alt='img' />
                       </div>
                     </div>
                     <div className='col-sm-8'>
@@ -178,7 +178,7 @@ const TestimonialTwo = () => {
                     </div>
                     <div className='col-sm-4 align-self-center text-sm-end mt-4 mt-sm-0'>
                       <div className='thumb d-inline-block'>
-                        <img src='assets/img/testimonial/5.png' alt='img' />
+                        <img src='/assets/img/testimonial/5.png' alt='img' />
                       </div>
                     </div>
                     <div className='col-sm-8 mt-4'>
