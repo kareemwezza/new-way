@@ -95,31 +95,20 @@ const NavbarTwo = () => {
               <li>
                 <Link to="/services">Services</Link>
               </li>
-              <li className="menu-item-has-children">
-                <a href="#">Pages</a>
-                <ul className="sub-menu">
-                  <li>
-                    <Link to="/about">About Us</Link>
-                  </li>
-                  <li>
-                    <Link to="/team">Team</Link>
-                  </li>
-                  <li>
-                    <Link to="/team-details">Team Details</Link>
-                  </li>
-                </ul>
+              <li>
+                <Link to="/partners">Partners</Link>
+              </li>
+              <li>
+                <Link to="/clients">Clients</Link>
               </li>
               <li>
                 <Link to="/blog">Blog</Link>
               </li>
-              <li>
-                <Link to="/contact">Contact Us</Link>
-              </li>
             </ul>
           </div>
           <div className="nav-right-part nav-right-part-desktop align-self-center">
-            <Link className="btn btn-border-base" to="/about">
-              Discover More <FaPlus />
+            <Link className="btn btn-border-base" to="/contact">
+              Contact Us <FaPlus/>
             </Link>
           </div>
         </div>

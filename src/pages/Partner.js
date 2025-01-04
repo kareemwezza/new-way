@@ -1,26 +1,25 @@
 import React from 'react';
 import Breadcrumb from '../components/Breadcrumb';
-import FooterOne from '../components/FooterOne';
 import NavBar from '../components/NavbarTwo';
-import TeamAreaGroup from '../components/TeamAreaGroup';
+import PartnerAreaGroup from '../components/PartnerAreaGroup';
 import FooterFour from '../components/FooterFour';
 
-const Team = () => {
+const Partner = () => {
   return (
     <>
       {/* Navigation Bar */}
       <NavBar />
 
       {/* Breadcrumb */}
-      <Breadcrumb title={'Team'} />
+      <Breadcrumb title={'Partner'} />
 
       {/* Team Area Group */}
-      <TeamAreaGroup />
+      <PartnerAreaGroup />
 
-      {/* Footer One */}
-      <FooterFour/>
+      {/* Footer Four */}
+      <FooterFour />
     </>
   );
 };
 
-export default Team;
+export default Partner;

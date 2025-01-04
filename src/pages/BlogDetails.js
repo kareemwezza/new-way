@@ -1,7 +1,7 @@
 import React from 'react';
 import BlogDetailsArea from '../components/BlogDetailsArea';
 import Breadcrumb from '../components/Breadcrumb';
-import FooterOne from '../components/FooterOne';
+import FooterFour from '../components/FooterFour';
 import NavBar from '../components/NavbarTwo';
 
 const BlogDetails = () => {
@@ -17,7 +17,7 @@ const BlogDetails = () => {
       <BlogDetailsArea />
 
       {/* Footer One */}
-      <FooterOne />
+      <FooterFour />
     </>
   );
 };

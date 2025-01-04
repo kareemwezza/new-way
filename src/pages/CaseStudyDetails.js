@@ -1,7 +1,7 @@
 import React from "react";
 import Breadcrumb from "../components/Breadcrumb";
 import CaseStudyArea from "../components/CaseStudyArea";
-import FooterOne from "../components/FooterOne";
+import FooterFour from "../components/FooterFour";
 import NavBar from "../components/NavBar";
 
 const CaseStudyDetails = () => {
@@ -17,7 +17,7 @@ const CaseStudyDetails = () => {
       <CaseStudyArea />
 
       {/* Footer One */}
-      <FooterOne />
+      <FooterFour />
     </>
   );
 };

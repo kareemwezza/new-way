@@ -1,7 +1,7 @@
 import React from 'react';
 import BlogGroup from '../components/BlogGroup';
 import Breadcrumb from '../components/Breadcrumb';
-import FooterOne from '../components/FooterOne';
+import FooterFour from '../components/FooterFour';
 import NavBar from '../components/NavbarTwo';
 
 const Blog = () => {
@@ -17,7 +17,7 @@ const Blog = () => {
       <BlogGroup />
 
       {/* Footer One */}
-      <FooterOne />
+      <FooterFour />
     </>
   );
 };

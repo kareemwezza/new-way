@@ -4,13 +4,13 @@ import Blog from './pages/Blog';
 import BlogDetails from './pages/BlogDetails';
 import CaseStudyDetails from './pages/CaseStudyDetails';
 import Contact from './pages/Contact';
-import HomeFour from './pages/HomeFour';
 import HomeOne from './pages/HomeOne';
 import HomeThree from './pages/HomeThree';
 import HomeTwo from './pages/HomeTwo';
 import Service from './pages/Service';
 import ServiceDetails from './pages/ServiceDetails';
-import Team from './pages/Team';
+import Partner from './pages/Partner';
+import Client from './pages/Client';
 import TeamDetails from './pages/TeamDetails';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -30,23 +30,19 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<HomeFive />} />
-        <Route exact path="/index-2" element={<HomeTwo />} />
-        <Route exact path="/index-3" element={<HomeThree />} />
-        <Route exact path="/index-4" element={<HomeFour />} />
-        <Route exact path="/index-5" element={<HomeFive />} />
-        <Route exact path="/about" element={<About />} />
+        <Route exact path="/services" element={<Service />} />
+        <Route exact path="/services/:slug" element={<ServiceDetails />} />
+        <Route exact path="/partners" element={<Partner />} />
+        <Route exact path="/clients" element={<Client />} />
         <Route exact path="/blog" element={<Blog />} />
         <Route exact path="/blog-details" element={<BlogDetails />} />
+        <Route exact path="/about" element={<About />} />
         <Route
           exact
           path="/case-study-details"
           element={<CaseStudyDetails />}
         />
         <Route exact path="/contact" element={<Contact />} />
-        <Route exact path="/services" element={<Service />} />
-        <Route exact path="/services/:slug" element={<ServiceDetails />} />
-        <Route exact path="/team" element={<Team />} />
-        <Route exact path="/team-details" element={<TeamDetails />} />
       </Routes>
       <ScrollToTop smooth color="#246BFD" />
     </BrowserRouter>

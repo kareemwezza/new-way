@@ -1,7 +1,7 @@
 import React from 'react';
 import Breadcrumb from '../components/Breadcrumb';
 import ContactMain from '../components/ContactMain';
-import FooterOne from '../components/FooterOne';
+import FooterFour from '../components/FooterFour';
 import NavbarTwo from '../components/NavbarTwo';
 
 const Contact = () => {
@@ -16,8 +16,8 @@ const Contact = () => {
       {/* Contact Main */}
       <ContactMain />
 
-      {/* Footer One */}
-      <FooterOne />
+      {/* Footer Four */}
+      <FooterFour />
     </>
   );
 };
