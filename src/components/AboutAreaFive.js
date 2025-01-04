@@ -1,9 +1,32 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {FaArrowRight, FaCheckCircle} from 'react-icons/fa';
 import {Link} from 'react-router-dom';
 import Marquee from 'react-fast-marquee';
+import config from "../config";
 
 const AboutAreaFive = () => {
+  const [clients, setClients] = useState([]);
+  useEffect(() => {
+    const apiUrl = `${config.API_URL}/customers?page=1&page_size=9999`;
+
+    const fetchData = async () => {
+      try {
+        const response = await fetch(apiUrl);
+        if (!response.ok) {
+          throw new Error(`Error: ${response.statusText}`);
+        }
+        const result = await response.json();
+        setClients(result.data);
+      } catch (err) {
+        // setError(err.message);
+      } finally {
+        // setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
+
   return (
     <>
       {/* =============== About Area Five End ===============*/}
@@ -58,24 +81,11 @@ const AboutAreaFive = () => {
           <div className='bg-base client-border-radius p-xl-5 p-3 mt-5'>
             <div className='client-slider'>
               <Marquee gradient={false}>
-                <div className='thumb'>
-                  <img src='/assets/img/client/1.svg' alt='img'/>
-                </div>
-                <div className='thumb'>
-                  <img src='/assets/img/client/2.svg' alt='img'/>
-                </div>
-                <div className='thumb'>
-                  <img src='/assets/img/client/3.svg' alt='img'/>
-                </div>
-                <div className='thumb'>
-                  <img src='/assets/img/client/4.svg' alt='img'/>
-                </div>
-                <div className='thumb'>
-                  <img src='/assets/img/client/5.svg' alt='img'/>
-                </div>
-                <div className='thumb'>
-                  <img src='/assets/img/client/6.svg' alt='img'/>
-                </div>
+                {clients.map((client, index) => (
+                  <div key={`home:client:${client?.id}:${index}`} className='thumb'>
+                    <img src={`${config.FILE_HOST}${client?.image}`} alt='img' height={80}/>
+                  </div>
+                ))}
               </Marquee>
             </div>
           </div>

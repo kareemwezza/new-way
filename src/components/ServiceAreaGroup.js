@@ -45,7 +45,7 @@ const ServiceAreaGroup = () => {
           </div>
           <div className="row">
             {services.map((data, index) => (
-              <div className="col-lg-4 col-md-6" key={index}>
+              <div key={`service:${data?.id}:${index}`} className="col-lg-4 col-md-6">
                 <div className="single-service-inner text-center">
                   <div className="thumb">
                     <img src={serviceList[index].img} alt="img"/>
@@ -54,7 +54,7 @@ const ServiceAreaGroup = () => {
                     <h5>
                       <Link to={`/services/${data.slug}`}>{data.title}</Link>
                     </h5>
-                    {/*<p>{data.content}</p>*/}
+                    <p>{data?.short_description || ''}</p>
                     <Link className="btn btn-border-base" to={`/services/${data.slug}`}>
                       Touch More <FaPlus/>
                     </Link>

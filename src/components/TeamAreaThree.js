@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import {
   FaAngleLeft,
   FaAngleRight,
@@ -8,8 +8,10 @@ import {
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
+import config from "../config";
 
 const TeamAreaThree = () => {
+  const [partners, setPartners] = useState([]);
   function SampleNextArrow(props) {
     const { className, onClick } = props;
     return <FaAngleRight className={className} onClick={onClick} />;
@@ -57,6 +59,28 @@ const TeamAreaThree = () => {
       },
     ],
   };
+
+  useEffect(() => {
+    const apiUrl = `${config.API_URL}/partners?page=1&page_size=9999`;
+
+    const fetchData = async () => {
+      try {
+        const response = await fetch(apiUrl);
+        if (!response.ok) {
+          throw new Error(`Error: ${response.statusText}`);
+        }
+        const result = await response.json();
+        setPartners(result.data);
+      } catch (err) {
+        // setError(err.message);
+      } finally {
+        // setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
+
   return (
     <>
       {/*====================== team area start ======================*/}
@@ -75,126 +99,20 @@ const TeamAreaThree = () => {
           </div>
           <div className='team-slider owl-carousel slider-control-square slider-control-right-top'>
             <Slider {...settings}>
-              <div className='item px-3'>
-                <div className='single-team-inner text-center border-radius-5 bg-white'>
-                  <div className='thumb bg-gray border-radius-5'>
-                    <img src='/assets/img/team/1.png' alt='img' />
-                    <ul className='team-social-inner border-radius-5 sky'>
-                      <li>
-                        <a href='#'>
-                          <FaFacebookF className='text-white' />
-                        </a>
-                      </li>
-                      <li>
-                        <a href='#'>
-                          <FaTwitter className='text-white' />
-                        </a>
-                      </li>
-                      <li>
-                        <a href='#'>
-                          <FaInstagram className='text-white' />
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className='details'>
-                    <h5>
-                      <Link to='/team-details'>Devon Lane</Link>
-                    </h5>
-                    <p>SEO Department</p>
+              {partners.map((partner, index) => (
+                <div key={`home:partner:${partner?.id}:${index}`} className='item px-3'>
+                  <div className='single-team-inner text-center border-radius-5 bg-white'>
+                    <div className='thumb bg-gray border-radius-5'>
+                      <img src={partner?.image && `${config.FILE_HOST}${partner?.image}` || '/assets/img/team/1.png'} alt='img'/>
+                    </div>
+                    <div className='details'>
+                      <h5>
+                        <a href={partner?.website} rel="noreferrer" target="_blank">{partner?.name}</a>
+                      </h5>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className='item px-3'>
-                <div className='single-team-inner text-center border-radius-5 bg-white'>
-                  <div className='thumb bg-gray border-radius-5'>
-                    <img src='/assets/img/team/2.png' alt='img' />
-                    <ul className='team-social-inner border-radius-5 sky'>
-                      <li>
-                        <a href='#'>
-                          <FaFacebookF className='text-white' />
-                        </a>
-                      </li>
-                      <li>
-                        <a href='#'>
-                          <FaTwitter className='text-white' />
-                        </a>
-                      </li>
-                      <li>
-                        <a href='#'>
-                          <FaInstagram className='text-white' />
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className='details'>
-                    <h5>
-                      <Link to='/team-details'>Darrell Steward</Link>
-                    </h5>
-                    <p>It Department</p>
-                  </div>
-                </div>
-              </div>
-              <div className='item px-3'>
-                <div className='single-team-inner text-center border-radius-5 bg-white'>
-                  <div className='thumb bg-gray border-radius-5'>
-                    <img src='/assets/img/team/3.png' alt='img' />
-                    <ul className='team-social-inner border-radius-5 sky'>
-                      <li>
-                        <a href='#'>
-                          <FaFacebookF className='text-white' />
-                        </a>
-                      </li>
-                      <li>
-                        <a href='#'>
-                          <FaTwitter className='text-white' />
-                        </a>
-                      </li>
-                      <li>
-                        <a href='#'>
-                          <FaInstagram className='text-white' />
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className='details'>
-                    <h5>
-                      <Link to='/team-details'>Bessie Cooper</Link>
-                    </h5>
-                    <p>Software Department</p>
-                  </div>
-                </div>
-              </div>
-              <div className='item px-3'>
-                <div className='single-team-inner text-center border-radius-5 bg-white'>
-                  <div className='thumb bg-gray border-radius-5'>
-                    <img src='/assets/img/team/1.png' alt='img' />
-                    <ul className='team-social-inner border-radius-5 sky'>
-                      <li>
-                        <a href='#'>
-                          <FaFacebookF className='text-white' />
-                        </a>
-                      </li>
-                      <li>
-                        <a href='#'>
-                          <FaTwitter className='text-white' />
-                        </a>
-                      </li>
-                      <li>
-                        <a href='#'>
-                          <FaInstagram className='text-white' />
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className='details'>
-                    <h5>
-                      <Link to='/team-details'>Devon Lane</Link>
-                    </h5>
-                    <p>SEO Department</p>
-                  </div>
-                </div>
-              </div>
+              ))}
             </Slider>
           </div>
         </div>

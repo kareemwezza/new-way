@@ -31,8 +31,8 @@ const PartnerAreaGroup = () => {
       <div className='team-area bg-relative pd-top-120 pd-bottom-90'>
         <div className='container'>
           <div className='row'>
-            {partners.map((partner) => (
-              <div className='col-lg-4 col-md-6'>
+            {partners.map((partner, index) => (
+              <div key={`partner:${partner?.id}:${index}`} className='col-lg-4 col-md-6'>
                 <div className='single-team-inner text-center'>
                   <div className='thumb'>
                     <img src={partner?.image && `${config.FILE_HOST}${partner?.image}` || '/assets/img/team/1.png'} alt='img'/>
