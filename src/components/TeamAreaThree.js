@@ -92,8 +92,7 @@ const TeamAreaThree = () => {
           <div className='row'>
             <div className='col-lg-5'>
               <div className='section-title style-white'>
-                <h6 className='sub-title-sky-blue'>MEET OUR EXPERTS</h6>
-                <h2 className='title'>Innovation Through Is Intelligence</h2>
+                <h2 className='title'>Our Partners</h2>
               </div>
             </div>
           </div>

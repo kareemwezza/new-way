@@ -6,6 +6,7 @@ import {
 } from "react-icons/fa";
 import { Link, useParams } from "react-router-dom";
 import config from "../config";
+import Breadcrumb from "./Breadcrumb";
 
 const ServiceDetailsArea = () => {
   const { slug } = useParams();
@@ -77,6 +78,8 @@ const ServiceDetailsArea = () => {
 
   return (
     <>
+      {/* Navigation Bar */}
+      <Breadcrumb title={service.title} />
       {/* ===================== Service Details Area start ===================== */}
       <div className='service-area pd-top-120 pd-bottom-90'>
         <div className='container'>
@@ -95,35 +98,6 @@ const ServiceDetailsArea = () => {
                         <Link to={`/services/${service.slug}`}>{service.title}</Link>
                       </li>
                     ))}
-                  </ul>
-                </div>
-                <div className='widget widget_author text-center'>
-                  <div className='thumb'>
-                    <img src='/assets/img/about/9.png' alt='img' />
-                  </div>
-                  <div className='details'>
-                    <a className='btn btn-base border-radius-5' href='#'>
-                      Discover our company +
-                    </a>
-                  </div>
-                </div>
-                <div className='widget widget_download'>
-                  <h5 className='widget-title'>
-                    <FaArrowRight /> Download
-                  </h5>
-                  <ul>
-                    <li>
-                      <a href='#'>
-                        {" "}
-                        Company Profile <FaAngleDoubleRight />
-                      </a>
-                    </li>
-                    <li>
-                      <a href='#'>
-                        {" "}
-                        Zip File Download <FaAngleDoubleRight />
-                      </a>
-                    </li>
                   </ul>
                 </div>
               </div>

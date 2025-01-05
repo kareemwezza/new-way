@@ -10,9 +10,6 @@ const ServiceDetails = () => {
       {/* Navigation Bar */}
       <NavBar />
 
-      {/* Navigation Bar */}
-      <Breadcrumb title={'Service Details'} />
-
       {/* Service Details Area */}
       <ServiceDetailsArea />
 

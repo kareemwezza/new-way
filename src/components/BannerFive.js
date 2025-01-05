@@ -15,14 +15,6 @@ const BannerFive = () => {
           <div className="row">
             <div className="col-lg-6 pb-xl-5 align-self-center">
               <div className="banner-inner pe-xl-4 pb-5">
-                <h6
-                  className="bg-base-2 text-white subtitle"
-                  data-aos="fade-right"
-                  data-aos-delay="100"
-                  data-aos-duration="1500"
-                >
-                  Designing for the future
-                </h6>
                 <h2
                   className="title text-white"
                   data-aos="fade-right"
@@ -31,15 +23,6 @@ const BannerFive = () => {
                 >
                   Secure Your Digital Future with New Way Solution
                 </h2>
-                <p
-                  className="content pe-xl-4"
-                  data-aos="fade-right"
-                  data-aos-delay="350"
-                  data-aos-duration="1500"
-                >
-                  Your Trusted Partner in Identity and Access Management.
-                  Leading the Charge in Cyber Security Solutions.
-                </p>
                 <Link
                   className="btn btn-border-base-2"
                   data-aos="fade-right"
