@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import {
   FaChevronRight,
   FaEnvelope,
@@ -12,8 +12,31 @@ import {
   FaLinkedin
 } from "react-icons/fa";
 import {Link} from "react-router-dom";
+import config from "../config";
 
 const FooterFour = () => {
+  const [services, setServices] = useState([]);
+  useEffect(() => {
+    const apiUrl = `${config.API_URL}/services?page=1&page_size=4`;
+
+    const fetchData = async () => {
+      try {
+        const response = await fetch(apiUrl);
+        if (!response.ok) {
+          throw new Error(`Error: ${response.statusText}`);
+        }
+        const result = await response.json();
+        setServices(result.data);
+      } catch (err) {
+        // setError(err.message);
+      } finally {
+        // setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
+
   return (
     <>
       {/* ================== Footer Four Start ==================*/}
@@ -109,26 +132,13 @@ const FooterFour = () => {
               <div className='widget widget_nav_menu'>
                 <h4 className='widget-title'>Our Service</h4>
                 <ul>
-                  <li className='sky'>
-                    <Link to='/service'>
-                      <FaChevronRight/> Ui Design
-                    </Link>
-                  </li>
-                  <li className='sky'>
-                    <Link to='/service'>
-                      <FaChevronRight/> Web design
-                    </Link>
-                  </li>
-                  <li className='sky'>
-                    <Link to='/service'>
-                      <FaChevronRight/> Digital marketing{" "}
-                    </Link>
-                  </li>
-                  <li className='sky'>
-                    <Link to='/service'>
-                      <FaChevronRight/> Video Editing
-                    </Link>
-                  </li>
+                  {services.map((service) => (
+                    <li className='sky'>
+                      <Link to={`/services/${service?.slug}`}>
+                        <FaChevronRight/> {service?.title}
+                      </Link>
+                    </li>
+                  ))}
                 </ul>
               </div>
             </div>

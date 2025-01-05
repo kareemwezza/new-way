@@ -42,12 +42,6 @@ const BannerFive = () => {
                     src="/assets/img/banner-5/4.png"
                     alt="img"
                   />
-                  <img
-                    className="banner-animate-img banner-animate-img-3 top_image_bounce"
-                    className="banner-animate-img banner-animate-img-3 top_image_bounce"
-                    src="/assets/img/banner-5/3.png"
-                    alt="img"
-                  />
                   <div>
                     <img
                       className="main-img"

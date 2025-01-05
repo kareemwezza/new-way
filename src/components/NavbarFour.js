@@ -27,30 +27,6 @@ const NavbarFour = () => {
   }
   return (
     <>
-      {/* search popup start*/}
-      <div
-        className={searchShow ? 'td-search-popup active' : 'td-search-popup '}
-        id="td-search-popup"
-      >
-        <form action="/" className="search-form">
-          <div className="form-group">
-            <input
-              type="text"
-              className="form-control"
-              placeholder="Search....."
-            />
-          </div>
-          <button type="submit" className="submit-btn">
-            <FaSearch />
-          </button>
-        </form>
-      </div>
-      {/* search popup end*/}
-      <div
-        onClick={searchActive}
-        className={searchShow ? 'body-overlay active' : 'body-overlay'}
-        id="body-overlay"
-      ></div>
       {/* ==================== Navbar Two Start ====================*/}
       <nav className="navbar navbar-area navbar-area-3 navbar-expand-lg">
         <div className="container nav-container custom-container">
@@ -74,11 +50,6 @@ const NavbarFour = () => {
             <Link to="/">
               <img src="/assets/img/NWS-logo.png" alt="img" />
             </Link>
-          </div>
-          <div className="nav-right-part nav-right-part-mobile">
-            <span className="search-bar-btn" onClick={searchActive}>
-              <FaSearch />
-            </span>
           </div>
           <div
             className={

@@ -4,7 +4,7 @@ const ContactAreaOne = () => {
   return (
     <>
       {/* ========================= contact Area One start =========================*/}
-      <div className='contact-area'>
+      <div className='contact-area pd-bottom-90'>
         <div className='container'>
           <div className='contact-inner-1'>
             <img
@@ -33,13 +33,11 @@ const ContactAreaOne = () => {
                 data-aos-duration='1500'
               >
                 <div className='section-title mb-0'>
-                  <h6 className='sub-title'>GET IN TOUCH</h6>
                   <h2 className='title'>
-                    Bringing Your <span>Vision</span> To Life
+                    Let us help you design a customized <span>security and IT</span> solution
                   </h2>
                   <p className='content'>
-                    For your car we will do everything advice design in us
-                    repairs and maintenance. We are the some preferred.
+                    that meets your specific needs and budget. Contact us today for a free consultation.
                   </p>
                   <form className='mt-4'>
                     <div className='row'>

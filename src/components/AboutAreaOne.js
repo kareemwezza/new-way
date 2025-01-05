@@ -45,12 +45,10 @@ const AboutAreaOne = () => {
               <div className='section-title mt-5 mt-lg-0'>
                 <h6 className='sub-title'>ABOUT US</h6>
                 <h2 className='title'>
-                  It Is A Critical Component Of <span>Modern</span> Businesses
+                  At <span>New Way Solution</span>
                 </h2>
                 <p className='content mb-4 mb-xl-5'>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry Loreaim Ipsum has been the industry's
-                  standard dummy
+                  we are committed to providing top-notch IT solutions that empower businesses to thrive in a digital world. Our team of experts leverages cutting-edge technology to deliver innovative and secure IT services tailored to meet your unique needs. With a focus on excellence and customer satisfaction, we strive to build long-lasting relationships with our clients, ensuring their success and security in every step of their digital journey
                 </p>
                 <div className='row'>
                   <div className='col-md-6'>
@@ -59,10 +57,9 @@ const AboutAreaOne = () => {
                         <img src='/assets/img/icon/2.png' alt='img' />
                       </div>
                       <div className='details'>
-                        <h5>Our Ambition</h5>
+                        <h5>Vision</h5>
                         <p>
-                          Lorem is Ipsum is simply is design iomyi is text Lorem
-                          Ipsum is simply is our busi designer is our country.
+                          Empowering businesses with secure, efficient, and compliant IT solutions for seamless infrastructure management, data protection, and advanced cybersecurity.
                         </p>
                       </div>
                     </div>
@@ -73,10 +70,9 @@ const AboutAreaOne = () => {
                         <img src='/assets/img/icon/3.png' alt='img' />
                       </div>
                       <div className='details'>
-                        <h5>Our Ambition</h5>
+                        <h5>Mission</h5>
                         <p>
-                          Lorem is Ipsum is simply is design iomyi is text Lorem
-                          Ipsum is simply is our busi designer is our country.
+                          Delivering trusted IT solutions in IAM, PAM, MFA, and MDM to protect assets, streamline operations, and manage risks with tailored support and measurable results.
                         </p>
                       </div>
                     </div>

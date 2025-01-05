@@ -21,20 +21,14 @@ const About = () => {
       {/* About Area One */}
       <AboutAreaOne/>
 
-      {/* FAQ Area One */}
+      {/* Work Process One */}
+      <WorkProcessOne/>
+
+        {/* FAQ Area One */}
       <FaqAreaOne/>
-
-      {/* Team Area One */}
-      <TeamAreaOne/>
-
-      {/* Counter Area One */}
-      <CounterAreaOne/>
 
       {/* Contact Area One */}
       <ContactAreaOne/>
-
-      {/* Work Process One */}
-      <WorkProcessOne/>
 
       {/* Footer One */}
       <FooterFour/>
