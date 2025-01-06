@@ -150,7 +150,7 @@ const ContactMain = () => {
       </div>
       {/* Map  */}
       <div className='contact-g-map'>
-        <iframe src='https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d29208.601361499546!2d90.3598076!3d23.7803374!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1589109092857!5m2!1sen!2sbd' />
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3592.08109957128!2d55.9683029!3d25.800898399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef67131f14a49b1%3A0xd3b5ffc06b24ab09!2sRas%20Al%20Khaimah%20Economic%20Zone%20-%20RAKEZ!5e0!3m2!1sen!2seg!4v1736194521370!5m2!1sen!2seg" />
       </div>
 
       {/* ================= Contact Main End =================*/}
