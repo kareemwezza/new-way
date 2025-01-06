@@ -119,7 +119,7 @@ const ContactMain = () => {
                 </div>
                 <div className='media-body'>
                   <h5>Contacts us</h5>
-                  <h6>88 01234 2345 12</h6>
+                  <h6>+(966)-54-044-8767</h6>
                 </div>
               </div>
             </div>
@@ -130,7 +130,7 @@ const ContactMain = () => {
                 </div>
                 <div className='media-body'>
                   <h5>Your Email</h5>
-                  <h6>Comism@mail.com</h6>
+                  <h6>info@newway-jo.com</h6>
                 </div>
               </div>
             </div>
@@ -141,7 +141,7 @@ const ContactMain = () => {
                 </div>
                 <div className='media-body'>
                   <h5>Location</h5>
-                  <h6>99 united,America</h6>
+                  <h6>Ras Al-Khaimah - United Arab Emirates</h6>
                 </div>
               </div>
             </div>
