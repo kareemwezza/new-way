@@ -25,6 +25,7 @@ const BlogAreaFive = () => {
 
     fetchData();
   }, []);
+
   return (
       <>
 
@@ -32,7 +33,6 @@ const BlogAreaFive = () => {
         <div className='blog-area pd-top-120 pd-bottom-90'>
           <div className='container'>
             <div className='bg-base client-border-radius p-xl-5 p-3 mb-5'>
-
               <div className='client-slider'>
                 <Marquee gradient={false}>
                   {clients.map((client, index) => (

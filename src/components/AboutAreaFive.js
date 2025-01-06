@@ -1,8 +1,5 @@
-import React, {useEffect, useState} from 'react';
-import {FaArrowRight, FaCheckCircle} from 'react-icons/fa';
+import {FaArrowRight} from 'react-icons/fa';
 import {Link} from 'react-router-dom';
-import Marquee from 'react-fast-marquee';
-import config from "../config";
 
 const AboutAreaFive = () => {
 

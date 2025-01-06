@@ -3,7 +3,6 @@ import ModalVideo from 'react-modal-video';
 import { Link } from 'react-router-dom';
 
 const BannerFive = () => {
-  const [isOpen, setOpen] = useState(false);
   return (
     <>
       {/* ================== BannerFive Start ==================*/}
@@ -37,7 +36,6 @@ const BannerFive = () => {
             <div className="col-lg-6 col-md-9 align-self-end">
               <div className="banner-thumb-2 mt-4 mt-lg-0">
                 <div className="main-img-wrap">
-
                   <div>
                     <img
                       className="main-img"
