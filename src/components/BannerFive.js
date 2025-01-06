@@ -28,7 +28,7 @@ const BannerFive = () => {
                   data-aos="fade-right"
                   data-aos-delay="450"
                   data-aos-duration="1500"
-                  to="/about"
+                  to="/services"
                 >
                   Discover More
                 </Link>
@@ -37,11 +37,7 @@ const BannerFive = () => {
             <div className="col-lg-6 col-md-9 align-self-end">
               <div className="banner-thumb-2 mt-4 mt-lg-0">
                 <div className="main-img-wrap">
-                  <img
-                    className="banner-animate-img banner-animate-img-1 left_image_bounce"
-                    src="/assets/img/banner-5/4.png"
-                    alt="img"
-                  />
+
                   <div>
                     <img
                       className="main-img"

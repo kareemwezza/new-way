@@ -21,17 +21,18 @@ const HomeFive = () => {
       {/* About Area Five */}
       <AboutAreaFive/>
 
+        {/* About Area Six */}
+        <AboutAreaSix/>
+
       {/* Service Area Five */}
       <ServiceAreaFive/>
 
-      {/* About Area Six */}
-      <AboutAreaSix/>
+        {/* Work Process Four */}
+        <WorkProcessFour/>
+
 
       {/* Team Area Three */}
       <TeamAreaThree/>
-
-      {/* Work Process Four */}
-      <WorkProcessFour/>
 
       {/* Blog Area Five */}
       <BlogAreaFive/>

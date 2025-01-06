@@ -88,7 +88,7 @@ const TeamAreaThree = () => {
         className='team-area bg-relative pd-top-120 pd-bottom-90'
         style={{ backgroundImage: 'url("assets/img/bg/15.png")' }}
       >
-        <div className='container pd-top-120'>
+        <div className='container pd-top-20'>
           <div className='row'>
             <div className='col-lg-5'>
               <div className='section-title style-white'>

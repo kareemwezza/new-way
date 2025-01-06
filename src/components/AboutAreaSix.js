@@ -8,7 +8,7 @@ const AboutAreaSix = () => {
       {/* ================== AboutAreaSix start  ==================*/}
       <div className="about-area about-area-margin-bottom pd-top-120">
         <div className="container">
-          <div className="box-shadow bg-white z-index-2 border-radius-5 p-xl-5 p-4">
+          <div className="box-shadow bg-white z-index-2 border-radius-5 p-xl-5 mb-5">
             <div className="row">
               <div className="col-lg-6">
                 <div
@@ -51,7 +51,6 @@ const AboutAreaSix = () => {
                 data-aos-duration="1500"
               >
                 <div className="section-title mt-5 mt-lg-0 mb-0">
-                  <h6 className="sub-title-sky-blue">Vision</h6>
                   <h2 className="title">Innovation Through Is Intelligence</h2>
                   <p className="content">
                     At New Way, we envision a future where businesses can operate with confidence, knowing their digital environments are secure, efficient, and compliant. Our goal is to help organizations seamlessly manage their IT infrastructure, safeguard sensitive data, and navigate the evolving landscape of cybersecurity, identity management, and cloud technologies.

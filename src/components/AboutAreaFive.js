@@ -5,27 +5,6 @@ import Marquee from 'react-fast-marquee';
 import config from "../config";
 
 const AboutAreaFive = () => {
-  const [clients, setClients] = useState([]);
-  useEffect(() => {
-    const apiUrl = `${config.API_URL}/customers?page=1&page_size=9999`;
-
-    const fetchData = async () => {
-      try {
-        const response = await fetch(apiUrl);
-        if (!response.ok) {
-          throw new Error(`Error: ${response.statusText}`);
-        }
-        const result = await response.json();
-        setClients(result.data);
-      } catch (err) {
-        // setError(err.message);
-      } finally {
-        // setLoading(false);
-      }
-    };
-
-    fetchData();
-  }, []);
 
   return (
     <>
@@ -62,7 +41,6 @@ const AboutAreaFive = () => {
               data-aos-duration="1500"
             >
               <div className="section-title mb-0 ps-xl-5">
-                <h6 className="sub-title-sky-blue">ABOUT COMPANY</h6>
                 <h2 className="title">
                   Providing top-notch IT solutions empowering businesses
                 </h2>
@@ -76,17 +54,6 @@ const AboutAreaFive = () => {
                   Discover More <FaArrowRight/>
                 </Link>
               </div>
-            </div>
-          </div>
-          <div className='bg-base client-border-radius p-xl-5 p-3 mt-5'>
-            <div className='client-slider'>
-              <Marquee gradient={false}>
-                {clients.map((client, index) => (
-                  <div key={`home:client:${client?.id}:${index}`} className='thumb'>
-                    <img src={`${config.FILE_HOST}${client?.image}`} alt='img' height={80}/>
-                  </div>
-                ))}
-              </Marquee>
             </div>
           </div>
         </div>

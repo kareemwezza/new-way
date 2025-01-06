@@ -34,7 +34,7 @@ const ServiceAreaFive = () => {
             <div className="col-lg-6">
               <div className="section-title text-center">
                 <h2 className="title">
-                  Here's a glimpse into what we offer
+                  Our Services
                 </h2>
               </div>
             </div>
