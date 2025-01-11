@@ -13,6 +13,8 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import ScrollToTop from 'react-scroll-to-top';
 import HomeFive from './pages/HomeFive';
+import AutoScrollToTop from "./components/AutoScrollToTop";
+
 function App() {
   useEffect(() => {
     AOS.init({
@@ -22,6 +24,7 @@ function App() {
     });
     AOS.refresh();
   }, []);
+
   return (
     <BrowserRouter>
       <Routes>
@@ -40,6 +43,7 @@ function App() {
         />
         <Route exact path="/contact" element={<Contact />} />
       </Routes>
+      <AutoScrollToTop />
       <ScrollToTop smooth color="#246BFD" />
     </BrowserRouter>
   );
