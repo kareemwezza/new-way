@@ -152,14 +152,10 @@ const FooterFour = () => {
                     </Link>
                   </li>
                   <li className='sky'>
-                    <Link to='/privacy-policy'>
-                      <FaChevronRight/> Privacy Policy
-                    </Link>
+                    <FaChevronRight/> Privacy Policy
                   </li>
                   <li className='sky'>
-                    <Link to='/terms-of-use'>
-                      <FaChevronRight/> Terms of use
-                    </Link>
+                    <FaChevronRight/> Terms of use
                   </li>
                   <li className='sky'>
                     <Link to='/contact'>
