@@ -75,9 +75,6 @@ const NavbarTwo = () => {
               <li>
                 <Link to="/clients">Clients</Link>
               </li>
-              <li>
-                <Link to="/blog">Blog</Link>
-              </li>
             </ul>
           </div>
           <div className="nav-right-part nav-right-part-desktop align-self-center">

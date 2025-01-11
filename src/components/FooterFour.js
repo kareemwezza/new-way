@@ -81,7 +81,7 @@ const FooterFour = () => {
         </div>
         <div className='container'>
           <div className='row'>
-            <div className='col-lg-3 col-md-6'>
+            <div className='col-lg-4 col-md-6'>
               <div className='widget widget-recent-post'>
                 <h4 className='widget-title'>Contact us</h4>
                 <div className='widget widget_contact'>
@@ -128,7 +128,7 @@ const FooterFour = () => {
                 </div>
               </div>
             </div>
-            <div className='col-lg-3 col-md-6 ps-xl-5'>
+            <div className='col-lg-4 col-md-6 ps-xl-5'>
               <div className='widget widget_nav_menu'>
                 <h4 className='widget-title'>Our Service</h4>
                 <ul>
@@ -142,7 +142,7 @@ const FooterFour = () => {
                 </ul>
               </div>
             </div>
-            <div className='col-lg-3 col-md-6 ps-xl-5'>
+            <div className='col-lg-4 col-md-6 ps-xl-5'>
               <div className='widget widget_nav_menu'>
                 <h4 className='widget-title'>About NewWay</h4>
                 <ul>
@@ -169,43 +169,6 @@ const FooterFour = () => {
                 </ul>
               </div>
             </div>
-            <div className='col-lg-3 col-md-6'>
-              <div className='widget widget-recent-post'>
-                <h4 className='widget-title'>Recent Blog</h4>
-                <ul>
-                  <li className='sky'>
-                    <div className='media'>
-                      <div className='media-body align-self-center'>
-                        <div className='post-info  mb-2'>
-                          <FaRegCalendarAlt className='sky'/>
-                          <span>january 11, 2023</span>
-                        </div>
-                        <h6 className='title sky mb-0'>
-                          <Link to='/blog-details'>
-                            Social Media For Promote Business.
-                          </Link>
-                        </h6>
-                      </div>
-                    </div>
-                  </li>
-                  <li className='sky'>
-                    <div className='media'>
-                      <div className='media-body align-self-center'>
-                        <div className='post-info mb-2'>
-                          <FaRegCalendarAlt className='sky'/>
-                          <span>january 11, 2023</span>
-                        </div>
-                        <h6 className='title sky mb-0'>
-                          <Link to='/blog-details'>
-                            Marketing For Base marketing watch
-                          </Link>
-                        </h6>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
           </div>
         </div>
         <div className='footer-bottom'>
@@ -215,9 +178,11 @@ const FooterFour = () => {
                 <p>© NewWay {new Date().getFullYear()} | All Rights Reserved</p>
               </div>
               <div className='col-md-6 text-lg-end'>
-                <Link to='/privacy-policy'>Privacy Policy</Link>
-                <Link to='/terms-of-use'>Terms of use</Link>
-                <Link to='/contact'>Contact Us</Link>
+                <ul className="page-list-footer">
+                  <li>Privacy Policy</li>
+                  <li>Terms of use</li>
+                  <li><Link to='/contact'>Contact Us</Link></li>
+                </ul>
               </div>
             </div>
           </div>

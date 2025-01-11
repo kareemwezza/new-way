@@ -31,7 +31,7 @@ const AboutAreaOne = () => {
                 />
                 <img
                   className='main-img'
-                  src='/assets/img/about/1.png'
+                  src='/assets/img/about/About1.png'
                   alt='img'
                 />
               </div>
@@ -45,7 +45,7 @@ const AboutAreaOne = () => {
               <div className='section-title mt-5 mt-lg-0'>
                 <h6 className='sub-title'>ABOUT US</h6>
                 <h2 className='title'>
-                  At <span>New Way Solution</span>
+                  At <span>New Way Solutions</span>
                 </h2>
                 <p className='content mb-4 mb-xl-5'>
                   we are committed to providing top-notch IT solutions that empower businesses to thrive in a digital world. Our team of experts leverages cutting-edge technology to deliver innovative and secure IT services tailored to meet your unique needs. With a focus on excellence and customer satisfaction, we strive to build long-lasting relationships with our clients, ensuring their success and security in every step of their digital journey

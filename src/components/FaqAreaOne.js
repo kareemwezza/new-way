@@ -19,7 +19,7 @@ const FaqAreaOne = () => {
               <div className='about-thumb-inner pt-lg-3'>
                 <img
                   className='main-img'
-                  src='/assets/img/about/4.png'
+                  src='/assets/img/about/About2.png'
                   alt='img'
                 />
 
@@ -36,7 +36,7 @@ const FaqAreaOne = () => {
                   What <span>Are</span> Unique
                 </h2>
                 <p className='content'>
-                  What sets New Way Solution apart is our unwavering commitment to innovation and excellence. Our holistic approach to IT management encompasses a wide range of services, from cyber security to mobile device management, ensuring comprehensive protection and efficiency. We pride ourselves on our ability to adapt to the ever-changing digital landscape, providing solutions that are not only effective but also future-proof. With New Way Solution , you get a partner who understands your business and is dedicated to helping you achieve your goals with confidence and security
+                  What sets New Way Solutions apart is our unwavering commitment to innovation and excellence. Our holistic approach to IT management encompasses a wide range of services, from cyber security to mobile device management, ensuring comprehensive protection and efficiency. We pride ourselves on our ability to adapt to the ever-changing digital landscape, providing solutions that are not only effective but also future-proof. With New Way Solutions , you get a partner who understands your business and is dedicated to helping you achieve your goals with confidence and security
                 </p>
               </div>
               <div

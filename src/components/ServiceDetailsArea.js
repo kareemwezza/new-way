@@ -83,20 +83,20 @@ const ServiceDetailsArea = () => {
       {/* ===================== Service Details Area start ===================== */}
       <div className='service-area pd-top-120 pd-bottom-90'>
         <div className='container'>
-          <div className='row'>
+          <div className='row pd-top-60'>
             <div className='col-lg-4 col-12'>
               <div className='td-sidebar service-sidebar'>
                 <div className='widget widget_catagory'>
                   <h5 className='widget-title'>
                     <Link to="/services">
-                      <FaArrowRight /> All Service lists
+                      <FaArrowRight/> All Service lists
                     </Link>
                   </h5>
                   <ul className='catagory-items'>
                     {services.length > 0 && services.map((service) => (
-                      <li key={`catagory-items-service-${service.id}`}>
-                        <Link to={`/services/${service.slug}`}>{service.title}</Link>
-                      </li>
+                        <li key={`catagory-items-service-${service.id}`}>
+                          <Link to={`/services/${service.slug}`}>{service.title}</Link>
+                        </li>
                     ))}
                   </ul>
                 </div>
@@ -106,7 +106,8 @@ const ServiceDetailsArea = () => {
               <div className='blog-details-page-content'>
                 <div className='single-blog-inner mb-0'>
                   <div className='thumb'>
-                    <img src={service.image && `${config.FILE_HOST}/${service.image}` || '/assets/img/service/7.png'} alt='img' />
+                    <img src={service.image && `${config.FILE_HOST}/${service.image}` || '/assets/img/service/7.png'}
+                         alt='img'/>
                   </div>
                   <div className='details'>
                     <h4>

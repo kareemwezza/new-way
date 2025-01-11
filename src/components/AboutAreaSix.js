@@ -6,7 +6,7 @@ const AboutAreaSix = () => {
   return (
     <>
       {/* ================== AboutAreaSix start  ==================*/}
-      <div className="about-area about-area-margin-bottom pd-top-120">
+      <div className="about-area about-area-margin-bottom">
         <div className="container">
           <div className="box-shadow bg-white z-index-2 border-radius-5 p-xl-5 mb-5">
             <div className="row">
@@ -20,29 +20,15 @@ const AboutAreaSix = () => {
                   <img
                     width={'334px'}
                     className="animate-img-4 top_image_bounce z-index-2"
-                    src="/assets/img/about/24.png"
+                    src="/assets/img/home/D8.png"
                     alt="img"
                   />
                   <img
                     className="main-img"
-                    src="/assets/img/about/about_2.webp"
+                    src="/assets/img/home/D7.png"
                     alt="img"
                   />
-                  <a
-                    onClick={() => setOpen(true)}
-                    className="video-play-btn-hover z-index-2"
-                    href="javascript:void(0)"
-                  >
-                    <img src="/assets/img/video.svg" alt="img" />
-                  </a>
                 </div>
-                <ModalVideo
-                  channel="youtube"
-                  autoplay
-                  isOpen={isOpen}
-                  videoId="XM6kTQPzzpQ"
-                  onClose={() => setOpen(false)}
-                />
               </div>
               <div
                 className="col-lg-6"

@@ -6,7 +6,7 @@ const AboutAreaFive = () => {
   return (
     <>
       {/* =============== About Area Five End ===============*/}
-      <div className="about-area pd-top-120">
+      <div className="about-area">
         <div className="container">
           <div className="row pd-bottom-60">
             <div
@@ -26,7 +26,7 @@ const AboutAreaFive = () => {
                 <img
                   className="main-img"
                   style={{maxHeight: '450px', width: '100%', objectFit: 'cover'}}
-                  src="/assets/img/about/about-newway.webp"
+                  src="/assets/img/home/D3.png"
                   alt="img"
                 />
               </div>
@@ -37,7 +37,7 @@ const AboutAreaFive = () => {
               data-aos-delay="200"
               data-aos-duration="1500"
             >
-              <div className="section-title mb-0 ps-xl-5">
+              <div className="section-title pd-top-60 mb-0 ps-xl-5">
                 <h2 className="title">
                   Providing top-notch IT solutions empowering businesses
                 </h2>

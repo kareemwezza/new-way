@@ -7,7 +7,9 @@ const Breadcrumb = ({ title }) => {
       {/* ================ Breadcrumb Start ================*/}
       <div
         className='breadcrumb-area bg-cover'
-        style={{ backgroundImage: 'url("./assets/img/bg/7.png")' }}
+        style={{
+          backgroundImage: 'linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/img/home/Hero2.png")'
+        }}
       >
         <div className='container'>
           <div className='breadcrumb-inner'>

@@ -63,7 +63,7 @@ const ServiceAreaFive = () => {
             </div>
             <div className="col-lg-4 col-md-6 bg-blue-right d-lg-inline-block d-none">
               <div className="service-thumb service-middle-section align-self-end">
-                <img src="/assets/img/about/D4.png" alt="img"/>
+                <img src="/assets/img/home/ServicesHome.png" alt="img"/>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">

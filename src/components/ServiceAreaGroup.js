@@ -43,24 +43,34 @@ const ServiceAreaGroup = () => {
               Your Partner In <span>Digital</span> Success
             </h2>
           </div>
-          <div className="row">
+          <div className="row position-relative">
+            <img
+                className='top_image_bounce animate-img-1 w-auto'
+                src='/assets/img/banner/2.png'
+                alt='img'
+            />
+            <img
+                className='top_image_bounce animate-img-2 w-auto'
+                src='/assets/img/about/6.png'
+                alt='img'
+            />
             {services.map((data, index) => (
-              <div key={`service:${data?.id}:${index}`} className="col-lg-4 col-md-6">
-                <div className="single-service-inner text-center">
-                  <div className="thumb">
-                    <img src={serviceList[index].img} alt="img"/>
-                  </div>
-                  <div className="details">
-                    <h5>
-                      <Link to={`/services/${data.slug}`}>{data.title}</Link>
-                    </h5>
-                    <p>{data?.short_description || ''}</p>
-                    <Link className="btn btn-border-base" to={`/services/${data.slug}`}>
-                      Touch More <FaPlus/>
-                    </Link>
+                <div key={`service:${data?.id}:${index}`} className="col-lg-4 col-md-6">
+                  <div className="single-service-inner text-center">
+                    <div className="thumb">
+                      <img src={serviceList[index].img} alt="img"/>
+                    </div>
+                    <div className="details">
+                      <h5>
+                        <Link to={`/services/${data.slug}`}>{data.title}</Link>
+                      </h5>
+                      <p>{data?.short_description || ''}</p>
+                      <Link className="btn btn-border-base" to={`/services/${data.slug}`}>
+                        Touch More <FaPlus/>
+                      </Link>
+                    </div>
                   </div>
                 </div>
-              </div>
             ))}
           </div>
         </div>

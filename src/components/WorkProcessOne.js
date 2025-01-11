@@ -19,7 +19,7 @@ const WorkProcessOne = () => {
                 </div>
                 <div className='details'>
                   <p className='content'>
-                    Choosing New Way Solution means partnering with a team of dedicated professionals who prioritize your security and efficiency.
+                    Choosing New Way Solutions means partnering with a team of dedicated professionals who prioritize your security and efficiency.
                   </p>
                 </div>
               </div>

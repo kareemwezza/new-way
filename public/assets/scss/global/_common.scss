@@ -118,8 +118,8 @@
   }
 }
 .btn-border-base-2 {
-  color: #50af9b;
-  border: 2px solid#50AF9B;
+  color: #fff;
+  border: 2px solid #50AF9B;
   line-height: 52px;
   &:after {
     background: #50af9b;
@@ -488,16 +488,18 @@
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 5px;
+    color: #fff;
   }
   .page-list {
     margin: 0;
     padding: 0;
+    color: #fff;
     li {
       font-weight: 600;
       list-style: none;
       display: inline-block;
       position: relative;
-      color: var(--heading-color);
+      color: #fff;
 
       &:first-child {
         padding-left: 0;
@@ -1024,5 +1026,14 @@
     .rotate-img {
       transform: rotateY(180deg);
     }
+  }
+}
+
+.page-list-footer {
+  li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 8px;
+    color: #fff;
   }
 }

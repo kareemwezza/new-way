@@ -30,20 +30,23 @@ const BlogAreaFive = () => {
       <>
 
         {/*===================== Blog Area Three start =====================*/}
-        <div className='blog-area pd-top-120 pd-bottom-90'>
+        <div className='blog-area pd-top-60 pd-bottom-90'>
           <div className='container'>
-            <div className='bg-base client-border-radius p-xl-5 p-3 mb-5'>
+            <div className="section-title text-center pb-3">
+              <h2 className="title">Our Clients</h2>
+            </div>
+            <div className='client-border-radius p-3 mb-5'>
               <div className='client-slider'>
                 <Marquee gradient={false}>
                   {clients.map((client, index) => (
                       <div key={`home:client:${client?.id}:${index}`} className='thumb'>
-                        <img src={`${config.FILE_HOST}${client?.image}`} alt='img' height={80}/>
+                        <img src={`${config.FILE_HOST}${client?.image}`} alt='img' height={180}/>
                       </div>
                   ))}
                 </Marquee>
               </div>
             </div>
-            <div className='row justify-content-center'>
+            {/* <div className='row justify-content-center'>
               <div className='col-lg-8'>
                 <div className='section-title text-center'>
                   <h2 className='title'>
@@ -155,7 +158,7 @@ const BlogAreaFive = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div>*/}
           </div>
         </div>
 
