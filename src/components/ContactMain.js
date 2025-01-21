@@ -141,7 +141,7 @@ const ContactMain = () => {
                 </div>
                 <div className='media-body'>
                   <h5>Location</h5>
-                  <h6>Ras Al-Khaimah - United Arab Emirates</h6>
+                  <h6>T1-TF-6 Amenity Centre - RAKEZ Al Hamra Industrial Zone-FZ RAK, United Arab Emirates</h6>
                 </div>
               </div>
             </div>
@@ -150,7 +150,9 @@ const ContactMain = () => {
       </div>
       {/* Map  */}
       <div className='contact-g-map'>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3592.08109957128!2d55.9683029!3d25.800898399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef67131f14a49b1%3A0xd3b5ffc06b24ab09!2sRas%20Al%20Khaimah%20Economic%20Zone%20-%20RAKEZ!5e0!3m2!1sen!2seg!4v1736194521370!5m2!1sen!2seg" />
+        <iframe
+            title="T1-TF-6 Amenity Centre - RAKEZ Al Hamra Industrial Zone-FZ RAK, United Arab Emirates"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3595.549022844266!2d55.79583357597161!3d25.68624021171815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ef60a61412b1615%3A0x8382e57f1d189185!2sRakez%20AlHamra%20Industrial%20Zone!5e0!3m2!1sen!2seg!4v1737441642087!5m2!1sen!2seg" />
       </div>
 
       {/* ================= Contact Main End =================*/}
