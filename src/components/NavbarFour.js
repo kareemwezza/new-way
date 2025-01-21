@@ -30,22 +30,6 @@ const NavbarFour = () => {
       {/* ==================== Navbar Two Start ====================*/}
       <nav className="navbar navbar-area navbar-area-3 navbar-expand-lg">
         <div className="container nav-container custom-container">
-          <div className="responsive-mobile-menu">
-            <button
-              onClick={menuActive}
-              className={
-                active
-                  ? 'menu toggle-btn d-block d-lg-none open'
-                  : 'menu toggle-btn d-block d-lg-none'
-              }
-              data-target="#itech_main_menu"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="icon-left" />
-              <span className="icon-right" />
-            </button>
-          </div>
           <div className="logo">
             <Link to="/">
               <img src="/assets/img/NWS-logo.png" alt="img" />
@@ -84,6 +68,22 @@ const NavbarFour = () => {
             >
               Contact Us <FaArrowRight className="mt-0" />
             </Link>
+          </div>
+          <div className="responsive-mobile-menu">
+            <button
+                onClick={menuActive}
+                className={
+                  active
+                      ? 'menu toggle-btn d-block d-lg-none open'
+                      : 'menu toggle-btn d-block d-lg-none'
+                }
+                data-target="#itech_main_menu"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+              <span className="icon-left" />
+              <span className="icon-right" />
+            </button>
           </div>
         </div>
       </nav>

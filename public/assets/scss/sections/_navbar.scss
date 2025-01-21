@@ -89,7 +89,7 @@
         color: #fff;
         img {
           height: auto;
-          max-width: 200px;
+          max-width: 300px;
           filter: brightness(0) invert(1);
         }
       }
@@ -667,6 +667,7 @@
   }
   .navbar-area {
     .nav-container {
+      align-items: center;
       position: relative;
       z-index: 0;
       .navbar-toggler {
@@ -749,6 +750,7 @@
       .logo {
         a {
           img {
+            max-width: 200px;
             filter: unset;
           }
         }
@@ -888,7 +890,8 @@
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .responsive-mobile-menu {
     display: block;
-    width: 100%;
+    width: 40px;
+    height: 40px;
     position: relative;
   }
   .navbar-area .nav-container .navbar-collapse .navbar-nav li {
@@ -1026,7 +1029,8 @@
   }
   .responsive-mobile-menu {
     display: block;
-    width: 100%;
+    width: 40px;
+    height: 40px;
     position: relative;
   }
 

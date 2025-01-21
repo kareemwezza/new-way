@@ -30,22 +30,6 @@ const NavbarTwo = () => {
       {/* ==================== Navbar Two Start ====================*/}
       <nav className="navbar navbar-area navbar-area-2 navbar-expand-lg">
         <div className="container nav-container">
-          <div className="responsive-mobile-menu">
-            <button
-              onClick={menuActive}
-              className={
-                active
-                  ? 'menu toggle-btn d-block d-lg-none open'
-                  : 'menu toggle-btn d-block d-lg-none'
-              }
-              data-target="#itech_main_menu"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span className="icon-left" />
-              <span className="icon-right" />
-            </button>
-          </div>
           <div className="logo">
             <Link to="/">
               <img src="/assets/img/NWS-logo.png" alt="img" />
@@ -81,6 +65,22 @@ const NavbarTwo = () => {
             <Link className="btn btn-border-base" to="/contact">
               Contact Us
             </Link>
+          </div>
+          <div className="responsive-mobile-menu">
+            <button
+                onClick={menuActive}
+                className={
+                  active
+                      ? 'menu toggle-btn d-block d-lg-none open'
+                      : 'menu toggle-btn d-block d-lg-none'
+                }
+                data-target="#itech_main_menu"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+              <span className="icon-left" />
+              <span className="icon-right" />
+            </button>
           </div>
         </div>
       </nav>
