@@ -19,7 +19,7 @@ const AboutAreaSix = () => {
                 >
                   <img
                     width={'334px'}
-                    className="animate-img-4 top_image_bounce z-index-2"
+                    className="animate-img-4 z-2"
                     src="/assets/img/home/D8.png"
                     alt="img"
                   />

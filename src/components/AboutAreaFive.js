@@ -17,9 +17,9 @@ const AboutAreaFive = () => {
             >
               <div className="about-thumb-inner">
                 <img
-                  width="283px"
-                  height="230px"
-                  className="animate-img-3 z-index-2 top_image_bounce"
+                  width="283"
+                  height="230"
+                  className="animate-img-3 z-2"
                   src="/assets/img/about/about-thumb.png"
                   alt="img"
                 />
