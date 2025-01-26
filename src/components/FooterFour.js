@@ -100,8 +100,8 @@ const FooterFour = () => {
                   </ul>
                   <ul className='social-media mt-4'>
                     <li>
-                      <a href="https://www.linkedin.com/company/newway-solutions-llc" target="_blank">
-                        <FaLinkedin/>
+                      <a href="https://www.linkedin.com/company/newway-solutions-llc" className="linkedin" target="_blank">
+                        <FaLinkedin size={90} />
                       </a>
                     </li>
                     {/*<li>*/}

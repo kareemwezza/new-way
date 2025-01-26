@@ -101,7 +101,7 @@ const TeamAreaThree = () => {
               {partners.map((partner, index) => (
                 <div key={`home:partner:${partner?.id}:${index}`} className='item px-3'>
                   <div className='single-team-inner text-center border-radius-5 bg-white'>
-                    <div className='thumb bg-gray border-radius-5'>
+                    <div className='thumb bg-white border-radius-5'>
                       <img src={partner?.image && `${config.FILE_HOST}${partner?.image}` || '/assets/img/team/1.png'} alt='img'/>
                     </div>
                     <div className='details'>
