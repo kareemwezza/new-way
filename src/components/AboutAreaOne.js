@@ -15,21 +15,6 @@ const AboutAreaOne = () => {
                 data-aos-duration='1500'
               >
                 <img
-                  className='animate-img-1 top_image_bounce'
-                  src='/assets/img/about/2.png'
-                  alt='img'
-                />
-                <img
-                  className='animate-img-2 left_image_bounce'
-                  src='/assets/img/about/3.png'
-                  alt='img'
-                />
-                <img
-                  className='animate-img-3 top_image_bounce'
-                  src='/assets/img/banner/5.svg'
-                  alt='img'
-                />
-                <img
                   className='main-img'
                   src='/assets/img/about/About1.png'
                   alt='img'

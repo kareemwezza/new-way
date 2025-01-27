@@ -18,12 +18,6 @@ const AboutAreaSix = () => {
                   data-aos-duration="1500"
                 >
                   <img
-                    width={'334px'}
-                    className="animate-img-4 z-2"
-                    src="/assets/img/home/D8.png"
-                    alt="img"
-                  />
-                  <img
                     className="main-img"
                     src="/assets/img/home/D7.png"
                     alt="img"

@@ -17,13 +17,6 @@ const AboutAreaFive = () => {
             >
               <div className="about-thumb-inner">
                 <img
-                  width="283"
-                  height="230"
-                  className="animate-img-3 z-2"
-                  src="/assets/img/about/about-thumb.png"
-                  alt="img"
-                />
-                <img
                   className="main-img"
                   style={{maxHeight: '450px', width: '100%', objectFit: 'cover'}}
                   src="/assets/img/home/D3.png"

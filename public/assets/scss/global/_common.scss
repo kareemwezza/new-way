@@ -1043,3 +1043,23 @@
     color: #fff;
   }
 }
+
+.work-process-area {
+  background-image: url('../../img/bg/16.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  .section-title {
+    .title {
+      color: #fff;
+    }
+  }
+  .details {
+    p, h5 {
+      color: #fff;
+    }
+  }
+  .line-img {
+    filter: invert(1);
+  }
+}

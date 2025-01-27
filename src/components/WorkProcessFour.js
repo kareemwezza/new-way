@@ -4,10 +4,7 @@ const WorkProcessFour = () => {
   return (
     <>
       {/*==================== Work Process Three start ====================*/}
-      <div
-        className='work-process-area bg-position-right pd-top-120 pd-bottom-90'
-        style={{backgroundImage: 'url("./assets/img/bg/16.png")'}}
-      >
+      <div className='work-process-area bg-position-right pd-top-120 pd-bottom-90'>
         <div className='container'>
           <div className='row justify-content-center'>
             <div className='col-lg-6'>
