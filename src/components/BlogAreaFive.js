@@ -33,7 +33,7 @@ const BlogAreaFive = () => {
         <div className='blog-area pd-top-60 pd-bottom-90'>
           <div className='container'>
             <div className="section-title text-center pb-3">
-              <h2 className="title">Our Clients</h2>
+              <h2 className="title width-fit-content border-bottom-2 mx-auto">Our Clients</h2>
             </div>
             <div className='client-border-radius p-3 mb-5'>
               <div className='client-slider'>

@@ -33,7 +33,7 @@ const ServiceAreaFive = () => {
           <div className="row justify-content-center">
             <div className="col-lg-6">
               <div className="section-title text-center">
-                <h2 className="title">
+                <h2 className="title width-fit-content mx-auto border-bottom-2">
                   Our Services
                 </h2>
               </div>

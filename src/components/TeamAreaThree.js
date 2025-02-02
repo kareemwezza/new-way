@@ -92,7 +92,7 @@ const TeamAreaThree = () => {
           <div className='row'>
             <div className='col-lg-5'>
               <div className='section-title style-white'>
-                <h2 className='title'>Our Partners</h2>
+                <h2 className='title width-fit-content border-bottom-2'>Our Partners</h2>
               </div>
             </div>
           </div>
