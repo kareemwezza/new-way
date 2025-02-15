@@ -1,7 +1,7 @@
 import ReCAPTCHA from 'react-google-recaptcha';
 
 import React, {useRef, useState} from "react";
-import { toast, Toaster } from "react-hot-toast";
+import {toast, Toaster} from "react-hot-toast";
 import config from "../config";
 
 
@@ -26,12 +26,12 @@ const ContactMain = () => {
         headers: {
           'Content-Type': 'application/json',
         }
-      }).then((responsePost) => {
+      }).then(async (responsePost) => {
         if (responsePost.ok) {
           toast.success("Massage Sent Successfully!");
           form.current.reset();
         } else {
-          throw new Error(responsePost.statusText);
+          throw await responsePost.json();
         }
       });
     } catch (error) {
@@ -70,7 +70,7 @@ const ContactMain = () => {
                   <div className='single-input-inner'>
                     <input
                       id='name'
-                      name='user_name'
+                      name='name'
                       type='text'
                       placeholder='Enter Your Name.'
                       required
@@ -81,7 +81,7 @@ const ContactMain = () => {
                   <div className='single-input-inner'>
                     <input
                       id='email'
-                      name='user_email'
+                      name='email'
                       type='email'
                       placeholder='Enter Your Email.'
                       required
