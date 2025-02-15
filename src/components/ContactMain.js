@@ -29,6 +29,7 @@ const ContactMain = () => {
       }).then((responsePost) => {
         if (responsePost.ok) {
           toast.success("Massage Sent Successfully!");
+          form.current.reset();
         } else {
           throw new Error(responsePost.statusText);
         }
