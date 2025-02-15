@@ -1,6 +1,4 @@
 import React, {useEffect, useState} from "react";
-import { FaCalendarAlt, FaPlus } from "react-icons/fa";
-import { Link } from "react-router-dom";
 import Marquee from "react-fast-marquee";
 import config from "../config";
 const BlogAreaFive = () => {

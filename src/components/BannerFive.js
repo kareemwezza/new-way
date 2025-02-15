@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import ModalVideo from 'react-modal-video';
+import React from 'react';
 import { Link } from 'react-router-dom';
 
 const BannerFive = () => {

@@ -1,16 +1,11 @@
 import React, { useState } from 'react';
-import { FaArrowRight, FaSearch } from 'react-icons/fa';
+import { FaArrowRight } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const NavbarFour = () => {
   const [active, setActive] = useState(false);
-  const [searchShow, setSearchShow] = useState(false);
   const menuActive = () => {
     setActive(!active);
-  };
-  const searchActive = () => {
-    setSearchShow(!searchShow);
-    console.log('hell');
   };
 
   // Control sidebar navigation

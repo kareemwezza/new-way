@@ -2,13 +2,7 @@ import React, {useEffect, useState} from "react";
 import {
   FaChevronRight,
   FaEnvelope,
-  FaFacebookF,
-  FaInstagram,
-  FaMapMarkerAlt,
   FaPhoneAlt,
-  FaRegCalendarAlt,
-  FaTwitter,
-  FaYoutube,
   FaLinkedin
 } from "react-icons/fa";
 import {Link} from "react-router-dom";

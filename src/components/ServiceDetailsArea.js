@@ -1,8 +1,6 @@
 import React, {useCallback, useEffect, useState} from "react";
 import {
-  FaAngleDoubleRight,
   FaArrowRight,
-  FaCheckCircle,
 } from "react-icons/fa";
 import { Link, useParams } from "react-router-dom";
 import config from "../config";
@@ -36,7 +34,7 @@ const ServiceDetailsArea = () => {
   }, [isInitial, services, setServices]);
 
   const fetchService = useCallback(async () => {
-    if (isInitial && Object.keys(service).length <= 0 || saveSlug !== slug) {
+    if (isInitial ? Object.keys(service).length <= 0 : saveSlug !== slug) {
       try {
         const apiServiceUrl = `${config.API_URL}/services/${slug}`;
         const response = await fetch(apiServiceUrl);
@@ -59,7 +57,7 @@ const ServiceDetailsArea = () => {
         setIsInitialServices(true);
         fetchServices();
       }
-      if (!isInitialService && Object.keys(service).length <= 0 || saveSlug !== slug) {
+      if (!isInitialService ? Object.keys(service).length <= 0 : saveSlug !== slug) {
         setSaveSlug(slug);
         setIsInitialService(true);
         fetchService();
@@ -106,7 +104,7 @@ const ServiceDetailsArea = () => {
               <div className='blog-details-page-content'>
                 <div className='single-blog-inner mb-0'>
                   <div className='thumb'>
-                    <img src={service.image && `${config.FILE_HOST}/${service.image}` || '/assets/img/service/7.png'}
+                    <img src={service.image ? `${config.FILE_HOST}/${service.image}` : '/assets/img/service/7.png'}
                          alt='img'/>
                   </div>
                   <div className='details'>

@@ -1,36 +1,47 @@
-import React, { useRef } from "react";
-import emailjs from "@emailjs/browser";
+import ReCAPTCHA from 'react-google-recaptcha';
+
+import React, {useRef, useState} from "react";
 import { toast, Toaster } from "react-hot-toast";
+import config from "../config";
+
+
 const ContactMain = () => {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const recaptchaRef = useRef();
   const form = useRef();
 
-  const sendEmail = (e) => {
+  const sendEmail = async (e) => {
     e.preventDefault();
-    // Please See Documentation for more information
-    emailjs
-      .sendForm(
-        "service_yipk4xg", //YOUR_SERVICE_ID
-        "template_71bgc2q", //YOUR_TEMPLATE_ID
-        form.current,
-        "cwf8kROl5o3__96Ti" //YOUR_PUBLIC_KEY
-      )
-      .then(
-        (result) => {
-          if (result.text === "OK") {
-            toast.success("Massage Sent Successfully!");
-            form.current[0].value = "";
-            form.current[1].value = "";
-            form.current[2].value = "";
-            form.current[3].value = "";
-          }
-        },
-        (error) => {
-          if (error.text !== "OK") {
-            toast.success("Massage Not Sent!");
-          }
+    try {
+      setIsSubmitting(true);
+      // Please See Documentation for more information
+      toast.loading("Sending Massage...", { id: "sendEmail" });
+      const token = await recaptchaRef?.current?.execute();
+      const formData = new FormData(form.current);
+      formData.append('g-recaptcha-response', token ?? '');
+      const body = JSON.stringify(Object.fromEntries(formData));
+      await fetch(`${config.API_URL}/contact`, {
+        method: 'POST',
+        body: body,
+        headers: {
+          'Content-Type': 'application/json',
         }
-      );
+      }).then((responsePost) => {
+        if (responsePost.ok) {
+          toast.success("Massage Sent Successfully!");
+        } else {
+          throw new Error(responsePost.statusText);
+        }
+      });
+    } catch (error) {
+      toast.error(error?.data?.message || error?.message);
+    } finally {
+      setIsSubmitting(false);
+      recaptchaRef?.current?.reset();
+      toast.dismiss('sendEmail');
+    }
   };
+
   return (
     <>
       {/* ================= Contact Main start =================*/}
@@ -48,6 +59,11 @@ const ContactMain = () => {
               </p>
             </div>
             <form ref={form} onSubmit={sendEmail}>
+              <ReCAPTCHA
+                  sitekey={config.googleRecaptchaSiteKey}
+                  size="invisible"
+                  ref={recaptchaRef}
+              />
               <div className='row'>
                 <div className='col-md-12'>
                   <div className='single-input-inner'>
@@ -98,6 +114,7 @@ const ContactMain = () => {
                   <button
                     className='btn btn-base border-radius-5'
                     type='submit'
+                    disabled={isSubmitting}
                   >
                     Send Message
                   </button>

@@ -1,6 +1,4 @@
 import React, {useEffect, useState} from "react";
-import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
-import { Link } from "react-router-dom";
 import config from "../config";
 
 const ClientAreaGroup = () => {
@@ -36,7 +34,7 @@ const ClientAreaGroup = () => {
             <div key={`client:${client.id}:${index}`} className='col-lg-4 col-md-6'>
               <div className='single-team-inner text-center'>
                 <div className='thumb'>
-                  <img src={client?.image && `${config.FILE_HOST}${client?.image}` || '/assets/img/team/1.png'} alt='img' />
+                  <img src={client?.image ? `${config.FILE_HOST}${client?.image}` : '/assets/img/team/1.png'} alt='img' />
                 </div>
               </div>
             </div>

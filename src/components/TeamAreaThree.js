@@ -2,11 +2,7 @@ import React, {useEffect, useState} from "react";
 import {
   FaAngleLeft,
   FaAngleRight,
-  FaFacebookF,
-  FaInstagram,
-  FaTwitter,
 } from "react-icons/fa";
-import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import config from "../config";
 
@@ -102,7 +98,7 @@ const TeamAreaThree = () => {
                 <div key={`home:partner:${partner?.id}:${index}`} className='item px-3'>
                   <div className='single-team-inner text-center border-radius-5 bg-white'>
                     <div className='thumb bg-white border-radius-5'>
-                      <img src={partner?.image && `${config.FILE_HOST}${partner?.image}` || '/assets/img/team/1.png'} alt='img'/>
+                      <img src={partner?.image ? `${config.FILE_HOST}${partner?.image}` : '/assets/img/team/1.png'} alt='img'/>
                     </div>
                     <div className='details'>
                       <h5>
